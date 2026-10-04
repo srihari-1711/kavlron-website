@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <rect width="1200" height="630" fill="#0A0A0A"/>
+  
+  <!-- Diagonal grid -->
+  <pattern id="diag" width="40" height="40" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+    <line x1="0" y1="0" x2="0" y2="40" stroke="#1A1A1A" stroke-width="2"/>
+  </pattern>
+  <rect width="1200" height="630" fill="url(#diag)" />
+
+  <!-- Abstract interconnected blocks -->
+  <g stroke="#444" stroke-width="2" fill="none">
+    <path d="M 200 200 L 400 150 L 500 300 L 300 350 Z" />
+    <path d="M 550 250 L 750 200 L 850 400 L 650 450 Z" />
+    <path d="M 800 150 L 1000 100 L 1100 250 L 900 300 Z" />
+  </g>
+
+  <!-- Connecting energy lines -->
+  <g stroke="#FFB100" stroke-width="3" fill="none" stroke-dasharray="8 4">
+    <path d="M 450 225 Q 600 100 650 225" />
+    <path d="M 750 325 Q 850 400 950 200" />
+  </g>
+
+  <!-- Glowing accent nodes -->
+  <circle cx="450" cy="225" r="8" fill="#FFB100" />
+  <circle cx="650" cy="225" r="8" fill="#FFB100" />
+  <circle cx="750" cy="325" r="8" fill="#FFB100" />
+  <circle cx="950" cy="200" r="8" fill="#FFB100" />
+</svg>

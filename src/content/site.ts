@@ -17,6 +17,7 @@ export const siteContent = {
     { label: "Security", href: "/#security" },
     { label: "Private AI", href: "/private-ai" },
     { label: "Vs RPA", href: "/vs-rpa" },
+    { label: "Insights", href: "/insights" },
     { label: "Team", href: "/#team" },
   ],
   footerLinks: [

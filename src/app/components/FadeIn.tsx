@@ -41,8 +41,8 @@ export default function FadeIn({ children, delay = 0, className = "" }: FadeInPr
   return (
     <div
       ref={domRef}
-      className={`transition-all duration-700 ease-out ${
-        isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-12"
+      className={`motion-safe:transition-all motion-safe:duration-700 motion-safe:ease-out ${
+        isVisible ? "motion-safe:opacity-100 motion-safe:translate-y-0" : "motion-safe:opacity-0 motion-safe:translate-y-12"
       } ${className}`}
     >
       {children}
