@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <rect width="1200" height="630" fill="#0A0A0A"/>
+  
+  <!-- Subtle Grid -->
+  <pattern id="grid6" width="60" height="60" patternUnits="userSpaceOnUse">
+    <path d="M 60 0 L 0 0 0 60" fill="none" stroke="#222" stroke-width="1"/>
+  </pattern>
+  <rect width="1200" height="630" fill="url(#grid6)" />
+
+  <!-- Flow lines and ledger timelines -->
+  <g stroke="#333" stroke-width="2" fill="none">
+    <line x1="150" y1="210" x2="1050" y2="210" stroke-dasharray="6 6"/>
+    <line x1="150" y1="315" x2="1050" y2="315" stroke="#FFB100" stroke-width="3"/>
+    <line x1="150" y1="420" x2="1050" y2="420" stroke-dasharray="6 6"/>
+
+    <path d="M 250 210 C 350 210, 350 315, 450 315" stroke="#555" stroke-width="2"/>
+    <path d="M 550 315 C 650 315, 650 420, 750 420" stroke="#555" stroke-width="2"/>
+    <path d="M 750 420 C 850 420, 850 315, 950 315" stroke="#FFB100" stroke-width="2"/>
+  </g>
+
+  <!-- Step Ledger Blocks -->
+  <g fill="#141414" stroke="#444" stroke-width="2">
+    <rect x="200" y="170" width="100" height="80" rx="8"/>
+    <rect x="420" y="275" width="120" height="80" rx="8" stroke="#FFB100" stroke-width="3"/>
+    <rect x="680" y="380" width="100" height="80" rx="8"/>
+    <rect x="900" y="275" width="120" height="80" rx="8" stroke="#FFB100" stroke-width="3"/>
+  </g>
+
+  <!-- Milestone Nodes -->
+  <circle cx="250" cy="210" r="10" fill="#FFB100"/>
+  <circle cx="480" cy="315" r="14" fill="#0A0A0A" stroke="#FFB100" stroke-width="4"/>
+  <circle cx="730" cy="420" r="10" fill="#888"/>
+  <circle cx="960" cy="315" r="16" fill="#FFB100"/>
+
+  <!-- Accents / Currency & Reconciliation markers -->
+  <circle cx="480" cy="315" r="30" fill="none" stroke="#FFB100" stroke-width="1" opacity="0.4"/>
+  <circle cx="960" cy="315" r="35" fill="none" stroke="#FFB100" stroke-width="1" opacity="0.4"/>
+  
+  <circle cx="340" cy="260" r="3" fill="#FFB100" opacity="0.7"/>
+  <circle cx="610" cy="365" r="3" fill="#888" opacity="0.5"/>
+  <circle cx="860" cy="370" r="3" fill="#FFB100" opacity="0.7"/>
+</svg>
