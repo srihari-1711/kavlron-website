@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <rect width="1200" height="630" fill="#0A0A0A"/>
+  
+  <pattern id="grid11" width="50" height="50" patternUnits="userSpaceOnUse">
+    <path d="M 50 0 L 0 0 0 50" fill="none" stroke="#1c1c1c" stroke-width="1"/>
+  </pattern>
+  <rect width="1200" height="630" fill="url(#grid11)"/>
+
+  <!-- 3 Distinct Zones / Panels -->
+  <!-- Zone 1: Copilot (One focused companion prompt) -->
+  <g fill="none" stroke="#444" stroke-width="2">
+    <circle cx="250" cy="315" r="90" stroke-dasharray="4 4"/>
+    <circle cx="250" cy="315" r="30" stroke="#888"/>
+    <circle cx="250" cy="315" r="8" fill="#888"/>
+    <circle cx="290" cy="275" r="12" fill="#0A0A0A" stroke="#FFB100" stroke-width="3"/>
+  </g>
+
+  <!-- Zone 2: Dedicated Agent (Closed autonomous task loop) -->
+  <g fill="none" stroke="#555" stroke-width="2">
+    <rect x="470" y="225" width="180" height="180" rx="20"/>
+    <path d="M 500 315 L 620 315" stroke="#FFB100" stroke-width="3"/>
+    <circle cx="500" cy="315" r="10" fill="#0A0A0A" stroke="#FFB100" stroke-width="3"/>
+    <circle cx="620" cy="315" r="10" fill="#0A0A0A" stroke="#FFB100" stroke-width="3"/>
+    <path d="M 560 255 L 560 375" stroke="#444"/>
+  </g>
+
+  <!-- Zone 3: AI Operating System (Connected multi-agent web) -->
+  <g fill="none" stroke="#FFB100" stroke-width="3">
+    <path d="M 820 250 L 980 250 L 900 380 Z"/>
+    <path d="M 900 210 L 900 420" stroke="#888" stroke-width="1.5" stroke-dasharray="6 4"/>
+    <path d="M 780 315 L 1020 315" stroke="#888" stroke-width="1.5" stroke-dasharray="6 4"/>
+  </g>
+
+  <g fill="#0A0A0A" stroke="#FFB100" stroke-width="4">
+    <circle cx="820" cy="250" r="16"/>
+    <circle cx="980" cy="250" r="16"/>
+    <circle cx="900" cy="380" r="16"/>
+    <circle cx="900" cy="300" r="22" fill="#FFB100"/>
+  </g>
+
+  <!-- Connecting Bus across all 3 concepts -->
+  <line x1="380" y1="315" x2="430" y2="315" stroke="#444" stroke-width="2" stroke-dasharray="4 4"/>
+  <line x1="690" y1="315" x2="740" y2="315" stroke="#FFB100" stroke-width="2"/>
+</svg>

@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <rect width="1200" height="630" fill="#0A0A0A"/>
+  
+  <pattern id="grid12" width="60" height="60" patternUnits="userSpaceOnUse">
+    <path d="M 60 0 L 0 0 0 60" fill="none" stroke="#202020" stroke-width="1"/>
+  </pattern>
+  <rect width="1200" height="630" fill="url(#grid12)"/>
+
+  <!-- Process Candidate Inputs (Top scatter) -->
+  <g fill="#141414" stroke="#444" stroke-width="2">
+    <circle cx="280" cy="160" r="14"/>
+    <circle cx="440" cy="140" r="16"/>
+    <circle cx="600" cy="130" r="18" stroke="#FFB100"/>
+    <circle cx="760" cy="150" r="14"/>
+    <circle cx="920" cy="160" r="16"/>
+  </g>
+
+  <!-- Prioritization Funnel Filter Gates -->
+  <g fill="none" stroke-linecap="round">
+    <!-- Filter 1: Frequency & Predictability -->
+    <path d="M 220 250 L 980 250" stroke="#444" stroke-width="2"/>
+    <line x1="420" y1="250" x2="780" y2="250" stroke="#FFB100" stroke-width="3"/>
+    
+    <!-- Filter 2: Cross-system handoffs -->
+    <path d="M 320 350 L 880 350" stroke="#444" stroke-width="2"/>
+    <line x1="480" y1="350" x2="720" y2="350" stroke="#FFB100" stroke-width="3.5"/>
+
+    <!-- Converging Funnel Lines -->
+    <path d="M 220 250 L 520 450" stroke="#333" stroke-width="2" stroke-dasharray="6 6"/>
+    <path d="M 980 250 L 680 450" stroke="#333" stroke-width="2" stroke-dasharray="6 6"/>
+
+    <!-- High-Impact Output Channel -->
+    <path d="M 600 130 L 600 520" stroke="#FFB100" stroke-width="4"/>
+  </g>
+
+  <!-- Selected Automation Target (Focal Node) -->
+  <circle cx="600" cy="480" r="38" fill="none" stroke="#FFB100" stroke-width="1" opacity="0.4"/>
+  <circle cx="600" cy="480" r="24" fill="#0A0A0A" stroke="#FFB100" stroke-width="4"/>
+  <circle cx="600" cy="480" r="10" fill="#FFB100"/>
+
+  <circle cx="600" cy="250" r="8" fill="#FFB100"/>
+  <circle cx="600" cy="350" r="10" fill="#FFB100"/>
+</svg>
