@@ -102,3 +102,4 @@ The purpose of your first automation project is not just to save hours; it is to
 When your leadership team and frontline staff experience an automated workflow that runs reliably every day—without breaking, without hallucinating, and without creating extra work—the internal perception of artificial intelligence changes completely. It transforms from a vague, intimidating buzzword into an indispensable operational utility.
 
 By selecting your first process with deliberate care, you build a stable foundation that allows your organization to expand automation across sales, finance, operations, and logistics smoothly and profitably.
+
