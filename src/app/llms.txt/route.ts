@@ -32,7 +32,7 @@ export async function GET() {
 
   lines.push(
     "",
-    "## Legal & Governance",
+    "## Optional & Legal Information",
     "",
     `- [Privacy Policy](${SITE_URL}/privacy): Data protection and privacy practices.`,
     `- [Terms of Service](${SITE_URL}/terms): Terms governing use of Kalvron services.`,
