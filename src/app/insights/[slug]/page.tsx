@@ -25,6 +25,8 @@ export async function generateMetadata({ params }: Props) {
       url: `/insights/${post.slug}`,
       type: "article",
       publishedTime: post.publishDate,
+      modifiedTime: post.publishDate,
+      authors: ["Kalvron Team"],
       images: post.coverImage ? [
         {
           url: `${SITE_URL}${post.coverImage}`,
@@ -51,8 +53,36 @@ export default async function PostPage({ params }: Props) {
     notFound();
   }
 
+  const articleSchema = {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "@id": `${SITE_URL}/insights/${post.slug}#article`,
+    "headline": post.title,
+    "description": post.metaDescription || post.excerpt,
+    "datePublished": post.publishDate,
+    "dateModified": post.publishDate,
+    "inLanguage": "en",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": `${SITE_URL}/insights/${post.slug}`
+    },
+    "author": {
+      "@type": "Organization",
+      "name": "Kalvron Team",
+      "url": SITE_URL
+    },
+    "publisher": {
+      "@id": `${SITE_URL}/#organization`
+    },
+    "image": post.coverImage ? `${SITE_URL}${post.coverImage}` : undefined,
+  };
+
   return (
     <article className="pt-32 pb-24 px-4 sm:px-6 md:px-12 max-w-4xl mx-auto space-y-12">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
+      />
       <header className="space-y-8 border-b border-border pb-12">
         <Link href="/insights" className="text-accent-amber hover:underline text-sm font-bold flex items-center gap-2">
           &larr; Back to Insights
@@ -63,9 +93,13 @@ export default async function PostPage({ params }: Props) {
           </h1>
         </FadeIn>
         <FadeIn delay={200}>
-          <time className="block text-sm font-mono text-text-muted">
-            {new Date(post.publishDate).toLocaleDateString("en-US", { month: "long", day: "numeric", year: "numeric" })}
-          </time>
+          <div className="flex flex-wrap items-center gap-3 text-sm font-mono text-text-muted">
+            <span className="text-text font-medium">By Kalvron Team</span>
+            <span>•</span>
+            <time dateTime={post.publishDate}>
+              Published {new Date(post.publishDate).toLocaleDateString("en-US", { month: "long", day: "numeric", year: "numeric" })}
+            </time>
+          </div>
         </FadeIn>
         {post.coverImage && (
           <FadeIn delay={300}>

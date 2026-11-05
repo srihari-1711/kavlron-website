@@ -1,0 +1,30 @@
+{
+  "name": "Kalvron AI OS FAQ",
+  "url": "https://kalvron.in/#faq",
+  "faqs": [
+    {
+      "question": "How is Kalvron AI OS different from a CRM, chatbot or automation tool?",
+      "answer": "Those tools handle one task inside one tool and wait for a person to connect the rest. Kalvron AI OS runs the whole operation as one system and acts on its own within limits you set."
+    },
+    {
+      "question": "What can the AI operating system do without asking for approval?",
+      "answer": "Only what you have explicitly approved in advance. Routine confirmations and scheduled data movement execute autonomously, while exceptions and financial or contract changes come to you first."
+    },
+    {
+      "question": "What safeguards exist if the AI system encounters an error or exception?",
+      "answer": "Every action is logged in an immutable audit trail, risky actions require human approval, and exceptions reach leadership with full context. The system also takes operational feedback to propose structured upgrade plans that you approve."
+    },
+    {
+      "question": "Who designs, builds, and maintains my company's AI system?",
+      "answer": "Our dedicated team of AI engineers and the founder. The people on your initial strategy call are the same engineers who build, deploy, and manage the system continuously."
+    },
+    {
+      "question": "How quickly can Kalvron AI OS go live inside our business?",
+      "answer": "Between one and four weeks, depending on operational complexity, including how many departments, software tools, and legacy portals we connect."
+    },
+    {
+      "question": "How does pricing and scoping work for Kalvron AI OS?",
+      "answer": "It depends on the complexity of the deployment and operational load: how many departments the system runs and how much transaction volume flows through it. We scope it directly on the initial strategy call."
+    }
+  ]
+}

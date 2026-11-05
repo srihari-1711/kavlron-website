@@ -1,4 +1,4 @@
-import { siteContent } from "../../content/site";
+import { siteContent, SITE_URL } from "../../content/site";
 import Link from "next/link";
 
 export const metadata = {
@@ -9,8 +9,27 @@ export const metadata = {
 };
 
 export default function PrivateAIPage() {
+  const pageSchema = {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "@id": `${SITE_URL}/private-ai#webpage`,
+    "url": `${SITE_URL}/private-ai`,
+    "name": "Private AI OS for Enterprise | Kalvron",
+    "description": "Kalvron provides private, fine-tuned AI models hosted exclusively for your business. Zero data leaks to public APIs.",
+    "datePublished": "2026-10-01T00:00:00Z",
+    "dateModified": "2026-11-05T00:00:00Z",
+    "inLanguage": "en",
+    "isPartOf": {
+      "@id": `${SITE_URL}/#website`
+    }
+  };
+
   return (
     <div className="pt-32 pb-24 px-4 sm:px-6 md:px-12 max-w-5xl mx-auto space-y-12">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(pageSchema) }}
+      />
       <div className="space-y-6">
         <div className="inline-block border border-accent-amber/30 bg-accent-amber/10 px-3 py-1 rounded-full text-xs font-mono text-accent-amber tracking-wider uppercase">
           Enterprise Security
@@ -48,7 +67,7 @@ export default function PrivateAIPage() {
 
       <div className="pt-12">
         <Link href="/#book-a-call" className="inline-block bg-white text-background px-8 py-4 font-bold hover:bg-accent-amber hover:text-white transition-colors">
-          Book a security consultation
+          Book a private consultation &rarr;
         </Link>
       </div>
     </div>

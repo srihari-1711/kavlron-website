@@ -1,0 +1,14 @@
+{
+  "name": "Kalvron AI OS Done-For-You Implementation",
+  "description": "Full-lifecycle design, build, deployment, and ongoing operation of autonomous AI systems running sales, HR, finance, and operations for mid-to-large businesses.",
+  "url": "https://kalvron.in",
+  "capabilities": [
+    "Autonomous cross-department operations orchestration across sales, finance, operations, and HR",
+    "Private, fine-tuned LLMs self-hosted within enterprise infrastructure with zero data leakage",
+    "Screen-level interface automation for legacy systems and portals that have no API",
+    "System of action integration layer operating alongside enterprise ERP platforms",
+    "Strict permission boundaries with human executive sign-off on sensitive decisions"
+  ],
+  "supportedFormats": ["text/markdown", "application/json"],
+  "contact": "sri@kalvronai.com"
+}

@@ -26,6 +26,9 @@ export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
   alternates: {
     canonical: "/",
+    types: {
+      "application/rss+xml": `${SITE_URL}/insights/rss.xml`,
+    },
   },
   openGraph: {
     title: siteContent.meta.home.title,
@@ -57,10 +60,30 @@ export default function RootLayout({
         "url": SITE_URL,
         "logo": `${SITE_URL}/logo-letter.png`,
         "description": siteContent.meta.home.description,
+        "dateModified": "2026-11-05T00:00:00Z",
         "sameAs": [
           siteContent.social.linkedIn,
           siteContent.social.instagram,
         ].filter(Boolean)
+      },
+      {
+        "@type": "WebSite",
+        "@id": `${SITE_URL}/#website`,
+        "name": siteContent.meta.home.title,
+        "url": SITE_URL,
+        "description": siteContent.meta.home.description,
+        "dateModified": "2026-11-05T00:00:00Z",
+        "publisher": {
+          "@id": `${SITE_URL}/#organization`
+        },
+        "potentialAction": {
+          "@type": "SearchAction",
+          "target": {
+            "@type": "EntryPoint",
+            "urlTemplate": `${SITE_URL}/insights?q={search_term_string}`
+          },
+          "query-input": "required name=search_term_string"
+        }
       },
       {
         "@type": "SoftwareApplication",

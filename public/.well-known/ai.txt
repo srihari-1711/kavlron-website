@@ -1,0 +1,13 @@
+# AI Agent Policy for kalvron.in
+# Standard: geo-checklist.dev / robotstxt
+
+User-agent: *
+Allow: /
+
+# Direct AI Discovery Endpoints
+Ai-Summary: https://kalvron.in/ai/summary.json
+Ai-Faq: https://kalvron.in/ai/faq.json
+Ai-Service: https://kalvron.in/ai/service.json
+Llms-Txt: https://kalvron.in/llms.txt
+Sitemap: https://kalvron.in/sitemap.xml
+Rss: https://kalvron.in/insights/rss.xml
