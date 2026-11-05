@@ -15,10 +15,11 @@ export function Footer() {
             <p className="text-text-muted text-sm leading-relaxed">
               {siteContent.footerText}
             </p>
-            <div className="flex gap-4">
+            <div className="flex flex-wrap gap-4">
               <a href={siteContent.social.linkedIn} target="_blank" rel="noopener noreferrer" className="text-text-dim hover:text-white transition-colors text-sm font-mono">LinkedIn</a>
               <a href={siteContent.social.instagram} target="_blank" rel="noopener noreferrer" className="text-text-dim hover:text-white transition-colors text-sm font-mono">Instagram</a>
               <a href={siteContent.social.founderLinkedIn} target="_blank" rel="noopener noreferrer" className="text-text-dim hover:text-white transition-colors text-sm font-mono">Founder</a>
+              <a href={`mailto:${siteContent.legal.contactEmail}`} className="text-text-dim hover:text-white transition-colors text-sm font-mono">{siteContent.legal.contactEmail}</a>
             </div>
           </div>
 
@@ -34,6 +35,7 @@ export function Footer() {
               <a href="/#team" className="text-sm text-text-muted hover:text-white transition-colors">Team</a>
               <a href="/#faq" className="text-sm text-text-muted hover:text-white transition-colors">FAQ</a>
               <a href="/partners" className="text-sm text-text-muted hover:text-white transition-colors">Partners</a>
+              <a href={`mailto:${siteContent.legal.contactEmail}`} className="text-sm text-text-muted hover:text-white transition-colors">Contact</a>
             </div>
             <div className="flex flex-col gap-4">
               <span className="font-mono text-xs font-bold uppercase tracking-widest text-text-dim">Legal</span>

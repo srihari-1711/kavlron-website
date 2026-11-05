@@ -60,6 +60,12 @@ export default function RootLayout({
         "url": SITE_URL,
         "logo": `${SITE_URL}/logo-letter.png`,
         "description": siteContent.meta.home.description,
+        "email": siteContent.legal.contactEmail,
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "email": siteContent.legal.contactEmail,
+          "contactType": "customer support"
+        },
         "dateModified": "2026-11-05T00:00:00Z",
         "sameAs": [
           siteContent.social.linkedIn,
