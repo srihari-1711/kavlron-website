@@ -70,7 +70,7 @@ An enterprise operating system requires persistent, longitudinal memory. It must
 
 This persistence ensures that institutional knowledge is preserved inside the business's operational layer, rather than disappearing whenever team members change roles.
 
-## Layer 5: Comprehensive audit and verification logs
+## Layer 5: Complete audit and verification logs
 
 In an enterprise environment, "black box" automation is unacceptable. Leadership, legal teams, and auditors must be able to inspect exactly why an action was taken, what information was considered, and who signed off on it.
 

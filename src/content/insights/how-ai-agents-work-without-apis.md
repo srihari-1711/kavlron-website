@@ -73,7 +73,7 @@ Crucially, a well-engineered agent does not simply click a button and assume the
 
 Allowing software agents to interact directly with internal screens naturally raises security and governance questions. Operating without APIs does not mean operating without controls.
 
-A robust enterprise implementation relies on strict architectural boundaries:
+A disciplined enterprise implementation relies on strict architectural boundaries:
 
 - **Isolated virtual environments:** Agents do not share physical workstations with human employees. They execute inside dedicated, secure virtual machines or sandboxed browser environments with strictly monitored network access.
 - **Role-based credentials:** Agents are assigned dedicated user accounts with permissions limited solely to the specific screens and actions required for their assigned workflow. They never share executive master credentials.

@@ -13,7 +13,7 @@ coverImage: "/insights/cover-12.svg"
 
 When mid-sized enterprises decide to pursue automation, failure rarely stems from a lack of capable technology. It almost always stems from poor candidate selection.
 
-Eager to demonstrate transformative impact, leadership teams frequently target their most complex, politically sensitive operational challenges first. They attempt to automate comprehensive executive demand forecasting, multi-tiered supplier negotiations, or nuanced customer grievance resolutions. 
+Eager to demonstrate transformative impact, leadership teams frequently target their most complex, politically sensitive operational challenges first. They attempt to automate full-scale executive demand forecasting, multi-tiered supplier negotiations, or nuanced customer grievance resolutions. 
 
 Six months and considerable budget later, the project remains bogged down in endless edge cases, conflicting departmental requirements, and executive hesitation. Frustrated by the lack of visible progress, leadership concludes that autonomous technology is simply not ready for their business.
 
@@ -97,7 +97,7 @@ Once you have identified the right candidate process using the four-part test, e
 
 ## The compounding value of the right first step
 
-The purpose of your first automation project is not just to save hours; it is to establish operational confidence.
+The real payoff of your first automation project is establishing operational confidence, not just recovering hours.
 
 When your leadership team and frontline staff experience an automated workflow that runs reliably every day—without breaking, without hallucinating, and without creating extra work—the internal perception of artificial intelligence changes completely. It transforms from a vague, intimidating buzzword into an indispensable operational utility.
 
