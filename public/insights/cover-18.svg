@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <rect width="1200" height="630" fill="#0A0A0A"/>
+  
+  <pattern id="grid18" width="40" height="40" patternUnits="userSpaceOnUse">
+    <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#1a1a1a" stroke-width="1"/>
+  </pattern>
+  <rect width="1200" height="630" fill="url(#grid18)"/>
+
+  <!-- Three Department Swimlanes (Sales, Operations, Finance) -->
+  <g fill="#121212" stroke="#2c2c2c" stroke-width="1.5">
+    <rect x="180" y="140" width="840" height="95" rx="8"/>
+    <rect x="180" y="260" width="840" height="95" rx="8"/>
+    <rect x="180" y="380" width="840" height="95" rx="8"/>
+  </g>
+
+  <!-- Department Badges on Left of Lanes -->
+  <rect x="205" y="165" width="100" height="22" rx="4" fill="#1e1e1e" stroke="#444" stroke-width="1"/>
+  <rect x="220" y="172" width="70" height="8" rx="2" fill="#fff" opacity="0.8"/>
+
+  <rect x="205" y="285" width="100" height="22" rx="4" fill="#1e1e1e" stroke="#444" stroke-width="1"/>
+  <rect x="220" y="292" width="70" height="8" rx="2" fill="#fff" opacity="0.8"/>
+
+  <rect x="205" y="405" width="100" height="22" rx="4" fill="#1e1e1e" stroke="#444" stroke-width="1"/>
+  <rect x="220" y="412" width="70" height="8" rx="2" fill="#fff" opacity="0.8"/>
+
+  <!-- Task Nodes in Swimlanes -->
+  <!-- Lane 1: Sales Deal Signed -->
+  <g fill="#181818" stroke="#333" stroke-width="1.5">
+    <rect x="350" y="160" width="160" height="55" rx="6"/>
+    <rect x="370" y="178" width="100" height="8" rx="2" fill="#888"/>
+    <rect x="370" y="192" width="60" height="6" rx="2" fill="#444"/>
+
+    <!-- Lane 2: Operational Onboarding & Provisioning -->
+    <rect x="540" y="280" width="180" height="55" rx="6" fill="#18150f" stroke="#FFB100" stroke-width="2"/>
+    <rect x="560" y="298" width="120" height="8" rx="2" fill="#FFB100"/>
+    <rect x="560" y="312" width="70" height="6" rx="2" fill="#888"/>
+
+    <!-- Lane 3: Finance Invoicing & Revenue Recognition -->
+    <rect x="750" y="400" width="170" height="55" rx="6"/>
+    <rect x="770" y="418" width="110" height="8" rx="2" fill="#888"/>
+    <rect x="770" y="432" width="80" height="6" rx="2" fill="#444"/>
+  </g>
+
+  <!-- The Autonomous Connected Coordination Thread Bridging the Gaps -->
+  <g fill="none" stroke="#FFB100" stroke-width="2.5">
+    <path d="M 510 187 L 570 187 L 570 280" stroke-dasharray="4 4"/>
+    <polygon points="570,280 565,270 575,270" fill="#FFB100"/>
+
+    <path d="M 720 307 L 800 307 L 800 400" stroke-dasharray="4 4"/>
+    <polygon points="800,400 795,390 805,390" fill="#FFB100"/>
+  </g>
+
+  <!-- Active Pulse Interconnect Icons -->
+  <circle cx="570" cy="187" r="5" fill="#FFB100"/>
+  <circle cx="800" cy="307" r="5" fill="#FFB100"/>
+</svg>
+

@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <rect width="1200" height="630" fill="#0A0A0A"/>
+  
+  <pattern id="grid17" width="40" height="40" patternUnits="userSpaceOnUse">
+    <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#1a1a1a" stroke-width="1"/>
+  </pattern>
+  <rect width="1200" height="630" fill="url(#grid17)"/>
+
+  <!-- Left: Live System Feeds (Finance, CRM, Ops) -->
+  <g fill="#121212" stroke="#2c2c2c" stroke-width="1.5">
+    <!-- Stream 1: Revenue & Cash Flow -->
+    <rect x="150" y="150" width="280" height="95" rx="8"/>
+    <rect x="175" y="170" width="100" height="10" rx="2" fill="#FFB100"/>
+    <rect x="175" y="195" width="180" height="25" rx="4" fill="#1c1c1c"/>
+    <path d="M 185 210 L 220 200 L 260 212 L 310 195 L 340 205" fill="none" stroke="#FFB100" stroke-width="2"/>
+
+    <!-- Stream 2: Sales Pipeline & Bookings -->
+    <rect x="150" y="265" width="280" height="95" rx="8"/>
+    <rect x="175" y="285" width="120" height="10" rx="2" fill="#fff" opacity="0.8"/>
+    <rect x="175" y="315" width="220" height="10" rx="3" fill="#222"/>
+    <rect x="175" y="315" width="150" height="10" rx="3" fill="#FFB100"/>
+
+    <!-- Stream 3: Operational Capacity & Fulfillment -->
+    <rect x="150" y="380" width="280" height="95" rx="8"/>
+    <rect x="175" y="400" width="110" height="10" rx="2" fill="#888"/>
+    <circle cx="200" cy="445" r="16" fill="none" stroke="#FFB100" stroke-width="3"/>
+    <circle cx="260" cy="445" r="16" fill="none" stroke="#444" stroke-width="3"/>
+    <circle cx="320" cy="445" r="16" fill="none" stroke="#444" stroke-width="3"/>
+  </g>
+
+  <!-- Synthesis Channels into Central Briefing -->
+  <g fill="none" stroke="#FFB100" stroke-width="1.5">
+    <path d="M 430 197 L 530 197 L 580 270" stroke-dasharray="4 4"/>
+    <path d="M 430 312 L 580 312"/>
+    <path d="M 430 427 L 530 427 L 580 350" stroke-dasharray="4 4"/>
+  </g>
+
+  <!-- Right: The Consolidated Morning Executive Briefing Card -->
+  <g fill="#121212" stroke="#333" stroke-width="2">
+    <rect x="580" y="140" width="470" height="350" rx="12"/>
+    <line x1="580" y1="205" x2="1050" y2="205" stroke="#252525"/>
+    
+    <!-- Header: Daily Operational Signal -->
+    <circle cx="615" cy="172" r="8" fill="#FFB100"/>
+    <rect x="635" y="167" width="210" height="12" rx="3" fill="#fff" opacity="0.9"/>
+    <rect x="940" y="163" width="75" height="20" rx="4" fill="#18150f" stroke="#FFB100" stroke-width="1.5"/>
+  </g>
+
+  <!-- Executive Insights Paragraph & Key Metrics Rows -->
+  <g fill="#1a1a1a" stroke="#282828" stroke-width="1">
+    <rect x="615" y="230" width="400" height="50" rx="6"/>
+    <rect x="615" y="295" width="400" height="50" rx="6"/>
+    <rect x="615" y="360" width="400" height="50" rx="6" fill="#18150f" stroke="#FFB100" stroke-width="1.5"/>
+  </g>
+
+  <!-- Inner Metric Callout Badges -->
+  <rect x="635" y="248" width="160" height="10" rx="2" fill="#fff" opacity="0.75"/>
+  <rect x="940" y="245" width="55" height="16" rx="3" fill="#252525"/>
+
+  <rect x="635" y="313" width="180" height="10" rx="2" fill="#fff" opacity="0.75"/>
+  <rect x="940" y="310" width="55" height="16" rx="3" fill="#252525"/>
+
+  <rect x="635" y="378" width="210" height="10" rx="2" fill="#FFB100"/>
+  <rect x="940" y="375" width="55" height="16" rx="3" fill="#FFB100"/>
+
+  <rect x="615" y="435" width="280" height="18" rx="4" fill="#1e1e1e"/>
+</svg>
+
