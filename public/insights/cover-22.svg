@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <rect width="1200" height="630" fill="#0A0A0A"/>
+  
+  <pattern id="grid22" width="40" height="40" patternUnits="userSpaceOnUse">
+    <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#1a1a1a" stroke-width="1"/>
+  </pattern>
+  <rect width="1200" height="630" fill="url(#grid22)"/>
+
+  <!-- Operational Cost Audit Ledger Frame -->
+  <g fill="#121212" stroke="#333" stroke-width="2">
+    <rect x="200" y="140" width="800" height="360" rx="12"/>
+    <line x1="200" y1="205" x2="1000" y2="205" stroke="#252525"/>
+    <rect x="230" y="167" width="220" height="14" rx="3" fill="#FFB100"/>
+    <circle cx="965" cy="174" r="6" fill="#FFB100"/>
+  </g>
+
+  <!-- The Three Real Cost Components (The Formula) -->
+  <!-- Component 1: Direct Clerical Hours -->
+  <g fill="#181818" stroke="#282828" stroke-width="1">
+    <rect x="230" y="230" width="740" height="60" rx="6"/>
+    <rect x="255" y="250" width="180" height="10" rx="2" fill="#fff" opacity="0.85"/>
+    <rect x="255" y="268" width="240" height="8" rx="2" fill="#666"/>
+    <rect x="880" y="247" width="70" height="26" rx="4" fill="#252525"/>
+    <rect x="895" y="255" width="40" height="10" rx="2" fill="#888"/>
+  </g>
+
+  <!-- Component 2: Exception Handling & Correction Drag -->
+  <g fill="#181818" stroke="#282828" stroke-width="1">
+    <rect x="230" y="305" width="740" height="60" rx="6"/>
+    <rect x="255" y="325" width="210" height="10" rx="2" fill="#fff" opacity="0.85"/>
+    <rect x="255" y="343" width="280" height="8" rx="2" fill="#666"/>
+    <rect x="880" y="322" width="70" height="26" rx="4" fill="#252525"/>
+    <rect x="895" y="330" width="40" height="10" rx="2" fill="#888"/>
+  </g>
+
+  <!-- Component 3: Delay & Opportunity Drag (The True Total) -->
+  <g fill="#18150f" stroke="#FFB100" stroke-width="1.5">
+    <rect x="230" y="380" width="740" height="85" rx="8"/>
+    <rect x="255" y="405" width="240" height="12" rx="3" fill="#FFB100"/>
+    <rect x="255" y="428" width="340" height="10" rx="2" fill="#888"/>
+    <rect x="860" y="402" width="90" height="35" rx="6" fill="#FFB100"/>
+    <rect x="875" y="414" width="60" height="12" rx="2" fill="#0A0A0A"/>
+  </g>
+</svg>
+

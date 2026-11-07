@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <rect width="1200" height="630" fill="#0A0A0A"/>
+  
+  <pattern id="grid19" width="40" height="40" patternUnits="userSpaceOnUse">
+    <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#1a1a1a" stroke-width="1"/>
+  </pattern>
+  <rect width="1200" height="630" fill="url(#grid19)"/>
+
+  <!-- Left Side: Feature Checklist (The Flawed Test) -->
+  <g fill="#121212" stroke="#282828" stroke-width="1.5">
+    <rect x="140" y="150" width="360" height="340" rx="10"/>
+    <line x1="140" y1="210" x2="500" y2="210" stroke="#222"/>
+    <rect x="170" y="175" width="160" height="12" rx="3" fill="#666"/>
+  </g>
+
+  <!-- Feature List Rows (Dim, Static) -->
+  <g fill="#1a1a1a" stroke="#222">
+    <rect x="170" y="235" width="300" height="45" rx="6"/>
+    <rect x="170" y="295" width="300" height="45" rx="6"/>
+    <rect x="170" y="355" width="300" height="45" rx="6"/>
+    <rect x="170" y="415" width="300" height="45" rx="6"/>
+  </g>
+  <circle cx="195" cy="257" r="8" fill="#333"/>
+  <rect x="220" y="253" width="120" height="8" rx="2" fill="#555"/>
+  <circle cx="195" cy="317" r="8" fill="#333"/>
+  <rect x="220" y="313" width="150" height="8" rx="2" fill="#555"/>
+  <circle cx="195" cy="377" r="8" fill="#333"/>
+  <rect x="220" y="373" width="100" height="8" rx="2" fill="#555"/>
+  <circle cx="195" cy="437" r="8" fill="#333"/>
+  <rect x="220" y="433" width="140" height="8" rx="2" fill="#555"/>
+
+  <!-- Contrast Arrow / Transition -->
+  <path d="M 525 320 L 595 320" fill="none" stroke="#FFB100" stroke-width="2" stroke-dasharray="4 4"/>
+  <polygon points="595,320 585,315 585,325" fill="#FFB100"/>
+
+  <!-- Right Side: The Outcome Ledger (The True Test) -->
+  <g fill="#121212" stroke="#333" stroke-width="2">
+    <rect x="620" y="150" width="440" height="340" rx="10"/>
+    <line x1="620" y1="210" x2="1060" y2="210" stroke="#252525"/>
+    <rect x="650" y="175" width="180" height="12" rx="3" fill="#FFB100"/>
+    <circle cx="1030" cy="181" r="6" fill="#FFB100"/>
+  </g>
+
+  <!-- 3 Concrete Outcome Metrics -->
+  <g fill="#18150f" stroke="#FFB100" stroke-width="1.5">
+    <rect x="650" y="235" width="380" height="65" rx="8"/>
+    <rect x="650" y="315" width="380" height="65" rx="8"/>
+    <rect x="650" y="395" width="380" height="65" rx="8"/>
+  </g>
+
+  <!-- Metric Badges & Indicators -->
+  <rect x="675" y="255" width="140" height="10" rx="2" fill="#fff" opacity="0.9"/>
+  <rect x="675" y="272" width="180" height="8" rx="2" fill="#888"/>
+  <rect x="940" y="252" width="65" height="24" rx="4" fill="#FFB100"/>
+
+  <rect x="675" y="335" width="160" height="10" rx="2" fill="#fff" opacity="0.9"/>
+  <rect x="675" y="352" width="140" height="8" rx="2" fill="#888"/>
+  <rect x="940" y="332" width="65" height="24" rx="4" fill="#FFB100"/>
+
+  <rect x="675" y="415" width="130" height="10" rx="2" fill="#fff" opacity="0.9"/>
+  <rect x="675" y="432" width="200" height="8" rx="2" fill="#888"/>
+  <rect x="940" y="412" width="65" height="24" rx="4" fill="#FFB100"/>
+</svg>
+

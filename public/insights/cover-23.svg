@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <rect width="1200" height="630" fill="#0A0A0A"/>
+  
+  <pattern id="grid23" width="40" height="40" patternUnits="userSpaceOnUse">
+    <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#1a1a1a" stroke-width="1"/>
+  </pattern>
+  <rect width="1200" height="630" fill="url(#grid23)"/>
+
+  <!-- Left Side: The Self-Serve Software Trap (Buying a Tool to Configure Yourself) -->
+  <g fill="#121212" stroke="#2c2c2c" stroke-width="1.5">
+    <rect x="140" y="150" width="420" height="340" rx="10"/>
+    <line x1="140" y1="210" x2="560" y2="210" stroke="#222"/>
+    <rect x="170" y="175" width="160" height="12" rx="3" fill="#666"/>
+  </g>
+
+  <!-- Left: Complex Tool Configuration Knobs & Internal Maintenance -->
+  <g fill="#181818" stroke="#282828" stroke-width="1">
+    <rect x="170" y="235" width="360" height="65" rx="6"/>
+    <rect x="170" y="315" width="360" height="65" rx="6"/>
+    <rect x="170" y="395" width="360" height="65" rx="6"/>
+  </g>
+  <rect x="195" y="255" width="130" height="10" rx="2" fill="#fff" opacity="0.7"/>
+  <rect x="195" y="272" width="200" height="8" rx="2" fill="#444"/>
+  <circle cx="490" cy="267" r="12" fill="#222" stroke="#444" stroke-width="1.5"/>
+
+  <rect x="195" y="335" width="150" height="10" rx="2" fill="#fff" opacity="0.7"/>
+  <rect x="195" y="352" width="180" height="8" rx="2" fill="#444"/>
+  <circle cx="490" cy="347" r="12" fill="#222" stroke="#444" stroke-width="1.5"/>
+
+  <rect x="195" y="415" width="140" height="10" rx="2" fill="#fff" opacity="0.7"/>
+  <rect x="195" y="432" width="190" height="8" rx="2" fill="#444"/>
+  <circle cx="490" cy="427" r="12" fill="#222" stroke="#444" stroke-width="1.5"/>
+
+  <!-- Right Side: Done-for-You Implementation (Buying the Operational Outcome) -->
+  <g fill="#121212" stroke="#333" stroke-width="2">
+    <rect x="640" y="150" width="420" height="340" rx="10"/>
+    <line x1="640" y1="210" x2="1060" y2="210" stroke="#252525"/>
+    <rect x="670" y="175" width="180" height="12" rx="3" fill="#FFB100"/>
+    <circle cx="1030" cy="181" r="6" fill="#FFB100"/>
+  </g>
+
+  <!-- Right: Managed Pipeline Delivering Verified Business Results -->
+  <g fill="#18150f" stroke="#FFB100" stroke-width="1.5">
+    <rect x="670" y="235" width="360" height="70" rx="8"/>
+    <rect x="670" y="320" width="360" height="70" rx="8"/>
+    <rect x="670" y="405" width="360" height="60" rx="8"/>
+  </g>
+
+  <!-- Output Delivery Badges -->
+  <rect x="695" y="255" width="160" height="10" rx="2" fill="#fff" opacity="0.9"/>
+  <rect x="695" y="275" width="180" height="8" rx="2" fill="#888"/>
+  <polygon points="980,265 995,275 980,285" fill="#FFB100"/>
+
+  <rect x="695" y="340" width="180" height="10" rx="2" fill="#fff" opacity="0.9"/>
+  <rect x="695" y="360" width="160" height="8" rx="2" fill="#888"/>
+  <polygon points="980,350 995,360 980,370" fill="#FFB100"/>
+
+  <rect x="695" y="423" width="140" height="10" rx="2" fill="#FFB100"/>
+  <rect x="695" y="440" width="170" height="8" rx="2" fill="#888"/>
+  <circle cx="985" cy="435" r="8" fill="#FFB100"/>
+</svg>
+
