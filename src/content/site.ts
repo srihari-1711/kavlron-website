@@ -9,6 +9,10 @@ export const siteContent = {
     partners: {
       title: "Partner with Kalvron | Add an AI OS to your agency",
       description: "Agencies bring the clients. Kalvron builds, deploys and runs the AI OS behind them, so you add recurring revenue without any technical work.",
+    },
+    projects: {
+      title: "What We've Actually Built | Live AI Systems | Kalvron AI OS",
+      description: "Real AI operating systems built, deployed, and running for businesses today across sales, operations, marketing, and recruitment.",
     }
   },
   navigation: [
@@ -17,6 +21,7 @@ export const siteContent = {
     { label: "Security", href: "/#security" },
     { label: "Private AI", href: "/private-ai" },
     { label: "Vs RPA", href: "/vs-rpa" },
+    { label: "Projects", href: "/projects" },
     { label: "Insights", href: "/insights" },
     { label: "Team", href: "/#team" },
   ],
@@ -25,6 +30,7 @@ export const siteContent = {
     { label: "Departments", href: "/#departments" },
     { label: "Security", href: "/#security" },
     { label: "Team", href: "/#team" },
+    { label: "Projects", href: "/projects" },
     { label: "FAQ", href: "/#faq" },
     { label: "Partners", href: "/partners" },
     { label: "Book a call", href: "/#book-a-call" },

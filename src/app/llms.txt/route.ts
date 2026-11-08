@@ -18,6 +18,7 @@ export async function GET() {
     `- [Home](${SITE_URL}/): ${siteContent.hero.headline}.`,
     `- [Private AI](${SITE_URL}/private-ai): Private, fine-tuned AI models hosted exclusively for enterprise operations with zero data leaks.`,
     `- [Vs RPA](${SITE_URL}/vs-rpa): Autonomous AI agents vs traditional robotic process automation.`,
+    `- [Projects](${SITE_URL}/projects): What Kalvron has actually built — live AI operating systems running for real clients today across agencies, D2C brands, and recruitment.`,
     `- [Insights](${SITE_URL}/insights): Insights, architectural guides, and operational playbooks on AI operating systems.`,
     `- [Partners](${SITE_URL}/partners): Partner with Kalvron to deliver a done-for-you AI OS to your agency clients.`,
     "",

@@ -22,26 +22,26 @@ export function Navbar() {
         </a>
 
         {/* Desktop Nav */}
-        <div className="hidden md:flex items-center gap-8">
+        <div className="hidden lg:flex items-center gap-5 xl:gap-7">
           {siteContent.navigation.map((link) => (
-            <a key={link.label} href={link.href} className="text-sm font-medium text-text-muted hover:text-white transition-colors duration-150">
+            <a key={link.label} href={link.href} className="text-xs xl:text-sm font-medium text-text-muted hover:text-white transition-colors duration-150 whitespace-nowrap">
               {link.label}
             </a>
           ))}
-          <a href="/#book-a-call" className="inline-flex h-10 items-center justify-center bg-accent-amber px-6 text-sm font-bold tracking-wide text-white transition-colors hover:bg-white hover:text-background">
+          <a href="/#book-a-call" className="inline-flex h-9 xl:h-10 items-center justify-center bg-accent-amber px-4 xl:px-6 text-xs xl:text-sm font-bold tracking-wide text-white transition-colors hover:bg-white hover:text-background whitespace-nowrap">
             Book a call
           </a>
         </div>
 
         {/* Mobile menu button */}
-        <button className="md:hidden text-text-muted hover:text-white" onClick={() => setIsOpen(!isOpen)} aria-label="Toggle menu" aria-expanded={isOpen}>
+        <button className="lg:hidden text-text-muted hover:text-white" onClick={() => setIsOpen(!isOpen)} aria-label="Toggle menu" aria-expanded={isOpen}>
           {isOpen ? <X size={24} /> : <Menu size={24} />}
         </button>
       </div>
 
       {/* Mobile Nav */}
       {isOpen && (
-        <div className="md:hidden absolute top-full left-0 right-0 bg-background border-b border-border p-6 flex flex-col gap-6 shadow-2xl">
+        <div className="lg:hidden absolute top-full left-0 right-0 bg-background border-b border-border p-6 flex flex-col gap-6 shadow-2xl">
           {siteContent.navigation.map((link) => (
             <a key={link.label} href={link.href} className="text-lg font-medium text-white" onClick={() => setIsOpen(false)}>
               {link.label}
