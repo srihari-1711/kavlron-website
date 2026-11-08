@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <rect width="1200" height="630" fill="#0A0A0A"/>
+  
+  <pattern id="grid27" width="40" height="40" patternUnits="userSpaceOnUse">
+    <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#1a1a1a" stroke-width="1"/>
+  </pattern>
+  <rect width="1200" height="630" fill="url(#grid27)"/>
+
+  <!-- Left: Inflow Multiplier Funnel (High Volume Stream) -->
+  <g fill="#121212" stroke="#2c2c2c" stroke-width="1.5">
+    <rect x="130" y="170" width="180" height="290" rx="10"/>
+    <rect x="150" y="195" width="100" height="12" rx="2" fill="#FFB100"/>
+  </g>
+  <!-- Fast Inbound Packets -->
+  <g fill="#252525">
+    <rect x="150" y="235" width="140" height="18" rx="4"/>
+    <rect x="150" y="265" width="140" height="18" rx="4" fill="#18150f" stroke="#FFB100" stroke-width="1"/>
+    <rect x="150" y="295" width="140" height="18" rx="4"/>
+    <rect x="150" y="325" width="140" height="18" rx="4" fill="#18150f" stroke="#FFB100" stroke-width="1"/>
+    <rect x="150" y="355" width="140" height="18" rx="4"/>
+    <rect x="150" y="385" width="140" height="18" rx="4"/>
+    <rect x="150" y="415" width="140" height="18" rx="4" fill="#18150f" stroke="#FFB100" stroke-width="1"/>
+  </g>
+
+  <!-- Flow Arrows into Stage Architecture -->
+  <path d="M 310 315 L 370 315" stroke="#FFB100" stroke-width="2.5"/>
+  <polygon points="370,315 360,310 360,320" fill="#FFB100"/>
+
+  <!-- Center-Right: 4 Structured Processing Gates -->
+  <!-- Gate 1: First Response -->
+  <g fill="#121212" stroke="#333" stroke-width="1.5">
+    <rect x="380" y="180" width="150" height="270" rx="8"/>
+    <rect x="395" y="200" width="90" height="10" rx="2" fill="#fff" opacity="0.8"/>
+    <rect x="395" y="230" width="120" height="40" rx="4" fill="#18150f" stroke="#FFB100" stroke-width="1"/>
+    <rect x="395" y="290" width="120" height="40" rx="4" fill="#1c1c1c"/>
+    <rect x="395" y="350" width="120" height="40" rx="4" fill="#18150f" stroke="#FFB100" stroke-width="1"/>
+  </g>
+  <path d="M 530 315 L 560 315" stroke="#FFB100" stroke-width="2"/>
+
+  <!-- Gate 2: Context Qualification -->
+  <g fill="#121212" stroke="#333" stroke-width="1.5">
+    <rect x="570" y="180" width="150" height="270" rx="8"/>
+    <rect x="585" y="200" width="90" height="10" rx="2" fill="#fff" opacity="0.8"/>
+    <rect x="585" y="230" width="120" height="40" rx="4" fill="#1c1c1c"/>
+    <rect x="585" y="290" width="120" height="40" rx="4" fill="#18150f" stroke="#FFB100" stroke-width="1"/>
+    <rect x="585" y="350" width="120" height="40" rx="4" fill="#1c1c1c"/>
+  </g>
+  <path d="M 720 315 L 750 315" stroke="#FFB100" stroke-width="2"/>
+
+  <!-- Gate 3: Intelligent Routing -->
+  <g fill="#121212" stroke="#333" stroke-width="1.5">
+    <rect x="760" y="180" width="150" height="270" rx="8"/>
+    <rect x="775" y="200" width="90" height="10" rx="2" fill="#fff" opacity="0.8"/>
+    <rect x="775" y="230" width="120" height="40" rx="4" fill="#18150f" stroke="#FFB100" stroke-width="1"/>
+    <rect x="775" y="290" width="120" height="40" rx="4" fill="#18150f" stroke="#FFB100" stroke-width="1"/>
+    <rect x="775" y="350" width="120" height="40" rx="4" fill="#1c1c1c"/>
+  </g>
+  <path d="M 910 315 L 940 315" stroke="#FFB100" stroke-width="2"/>
+
+  <!-- Gate 4: Account Executive Calendar Booked -->
+  <g fill="#18150f" stroke="#FFB100" stroke-width="2">
+    <rect x="950" y="210" width="150" height="210" rx="10"/>
+    <rect x="970" y="235" width="100" height="12" rx="2" fill="#FFB100"/>
+    <rect x="970" y="270" width="110" height="10" rx="2" fill="#fff" opacity="0.9"/>
+    <circle cx="1025" cy="340" r="24" fill="#FFB100"/>
+    <path d="M 1017 340 L 1023 346 L 1035 334" stroke="#0A0A0A" stroke-width="3" fill="none"/>
+  </g>
+</svg>

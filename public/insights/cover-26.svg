@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <rect width="1200" height="630" fill="#0A0A0A"/>
+  
+  <pattern id="grid26" width="40" height="40" patternUnits="userSpaceOnUse">
+    <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#1a1a1a" stroke-width="1"/>
+  </pattern>
+  <rect width="1200" height="630" fill="url(#grid26)"/>
+
+  <!-- Left: 3-Way Match Verification Terminal -->
+  <g fill="#121212" stroke="#333" stroke-width="2">
+    <rect x="150" y="150" width="340" height="330" rx="10"/>
+    <line x1="150" y1="210" x2="490" y2="210" stroke="#252525"/>
+    <rect x="175" y="175" width="140" height="12" rx="3" fill="#fff" opacity="0.85"/>
+  </g>
+
+  <!-- 3 Match Elements -->
+  <g fill="#1a1a1a" stroke="#2c2c2c" stroke-width="1">
+    <rect x="175" y="235" width="290" height="65" rx="6"/>
+    <rect x="175" y="315" width="290" height="65" rx="6"/>
+    <rect x="175" y="395" width="290" height="65" rx="6"/>
+  </g>
+  <rect x="195" y="255" width="110" height="10" rx="2" fill="#fff" opacity="0.9"/>
+  <rect x="195" y="272" width="160" height="8" rx="2" fill="#555"/>
+  <circle cx="435" cy="267" r="7" fill="#FFB100"/>
+
+  <rect x="195" y="335" width="130" height="10" rx="2" fill="#fff" opacity="0.9"/>
+  <rect x="195" y="352" width="140" height="8" rx="2" fill="#555"/>
+  <circle cx="435" cy="347" r="7" fill="#FFB100"/>
+
+  <rect x="195" y="415" width="120" height="10" rx="2" fill="#fff" opacity="0.9"/>
+  <rect x="195" y="432" width="180" height="8" rx="2" fill="#555"/>
+  <circle cx="435" cy="427" r="7" fill="#FFB100"/>
+
+  <!-- Flow Split into 80% Straight-Through vs 20% Exception -->
+  <path d="M 490 280 L 590 240 L 680 240" fill="none" stroke="#FFB100" stroke-width="2.5"/>
+  <polygon points="680,240 670,235 670,245" fill="#FFB100"/>
+
+  <path d="M 490 420 L 590 420 L 680 420" fill="none" stroke="#666" stroke-width="2" stroke-dasharray="4 4"/>
+  <polygon points="680,420 670,415 670,425" fill="#666"/>
+
+  <!-- Right Upper: 80% Touchless Flow (Automated Settlement) -->
+  <g fill="#18150f" stroke="#FFB100" stroke-width="1.5">
+    <rect x="690" y="180" width="360" height="120" rx="10"/>
+    <rect x="715" y="205" width="150" height="12" rx="2" fill="#FFB100"/>
+    <rect x="715" y="230" width="220" height="10" rx="2" fill="#fff" opacity="0.8"/>
+    <rect x="715" y="255" width="180" height="8" rx="2" fill="#888"/>
+    <rect x="965" y="200" width="60" height="26" rx="4" fill="#FFB100"/>
+    <rect x="975" y="208" width="40" height="10" rx="2" fill="#0A0A0A"/>
+  </g>
+
+  <!-- Right Lower: 20% Exception Isolation (Human Decision Lane) -->
+  <g fill="#121212" stroke="#333" stroke-width="1.5">
+    <rect x="690" y="350" width="360" height="120" rx="10"/>
+    <rect x="715" y="375" width="160" height="12" rx="2" fill="#fff" opacity="0.9"/>
+    <rect x="715" y="400" width="240" height="8" rx="2" fill="#888"/>
+    <rect x="715" y="425" width="140" height="24" rx="4" fill="#1e1e1e" stroke="#FFB100" stroke-width="1"/>
+    <rect x="730" y="433" width="110" height="8" rx="2" fill="#FFB100"/>
+    <circle cx="1000" cy="385" r="8" fill="#555"/>
+  </g>
+</svg>
