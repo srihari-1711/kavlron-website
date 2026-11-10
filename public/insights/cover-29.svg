@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <rect width="1200" height="630" fill="#0A0A0A"/>
+  
+  <pattern id="grid29" width="40" height="40" patternUnits="userSpaceOnUse">
+    <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#1a1a1a" stroke-width="1"/>
+  </pattern>
+  <rect width="1200" height="630" fill="url(#grid29)"/>
+
+  <!-- Left: Inflow Pipeline (High Volume Demand) -->
+  <g fill="#141416" stroke="#2a2a30" stroke-width="1.5">
+    <rect x="140" y="150" width="340" height="330" rx="12"/>
+    <line x1="140" y1="210" x2="480" y2="210" stroke="#222"/>
+    <rect x="170" y="176" width="130" height="12" rx="3" fill="#666"/>
+  </g>
+
+  <!-- Inflow Queue Nodes -->
+  <g fill="#1d1d22" stroke="#333">
+    <rect x="170" y="235" width="280" height="42" rx="6"/>
+    <rect x="170" y="290" width="280" height="42" rx="6"/>
+    <rect x="170" y="345" width="280" height="42" rx="6"/>
+    <rect x="170" y="400" width="280" height="42" rx="6"/>
+  </g>
+  <rect x="190" y="250" width="120" height="10" rx="2" fill="#888"/>
+  <rect x="190" y="305" width="150" height="10" rx="2" fill="#888"/>
+  <rect x="190" y="360" width="110" height="10" rx="2" fill="#888"/>
+  <rect x="190" y="415" width="140" height="10" rx="2" fill="#888"/>
+
+  <!-- Center Bottleneck Constriction Choke -->
+  <path d="M 480 200 L 580 270 L 580 360 L 480 430 Z" fill="#141416" stroke="#3a3a40" stroke-width="2"/>
+  <circle cx="580" cy="315" r="24" fill="#1f180c" stroke="#FFB100" stroke-width="2"/>
+  <path d="M 572 315 L 588 315 M 580 307 L 580 323" stroke="#FFB100" stroke-width="2" transform="rotate(45 580 315)"/>
+
+  <!-- Five Observable Warning Nodes (The 5 Signs) -->
+  <g stroke="#FFB100" stroke-width="1.5" fill="#18150f">
+    <circle cx="680" cy="180" r="14"/>
+    <circle cx="760" cy="245" r="14"/>
+    <circle cx="700" cy="315" r="14"/>
+    <circle cx="760" cy="385" r="14"/>
+    <circle cx="680" cy="450" r="14"/>
+  </g>
+  <circle cx="680" cy="180" r="5" fill="#FFB100"/>
+  <circle cx="760" cy="245" r="5" fill="#FFB100"/>
+  <circle cx="700" cy="315" r="5" fill="#FFB100"/>
+  <circle cx="760" cy="385" r="5" fill="#FFB100"/>
+  <circle cx="680" cy="450" r="5" fill="#FFB100"/>
+
+  <!-- Right: Delivery Latency Delay Stack -->
+  <g fill="#121214" stroke="#2c2c30" stroke-width="1.5">
+    <rect x="830" y="150" width="230" height="330" rx="12"/>
+    <line x1="830" y1="210" x2="1060" y2="210" stroke="#222"/>
+    <rect x="855" y="176" width="100" height="12" rx="3" fill="#555"/>
+  </g>
+  <g fill="#1b1b1e" stroke="#252528">
+    <rect x="855" y="240" width="180" height="50" rx="6"/>
+    <rect x="855" y="310" width="180" height="50" rx="6"/>
+    <rect x="855" y="380" width="180" height="50" rx="6"/>
+  </g>
+  <rect x="875" y="260" width="80" height="8" rx="2" fill="#444"/>
+  <rect x="875" y="330" width="110" height="8" rx="2" fill="#444"/>
+  <rect x="875" y="400" width="70" height="8" rx="2" fill="#444"/>
+</svg>

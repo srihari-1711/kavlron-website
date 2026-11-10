@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <rect width="1200" height="630" fill="#0A0A0A"/>
+  
+  <pattern id="grid30" width="40" height="40" patternUnits="userSpaceOnUse">
+    <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#1a1a1a" stroke-width="1"/>
+  </pattern>
+  <rect width="1200" height="630" fill="url(#grid30)"/>
+
+  <!-- Main Contract Lifecycle Horizontal Timeline -->
+  <line x1="140" y1="315" x2="1060" y2="315" stroke="#252528" stroke-width="3" stroke-dasharray="6 6"/>
+
+  <!-- Milestone Nodes along the timeline: Day 0, Day 90, Day 180, Day 300, Day 365 -->
+  <!-- Milestone 1: Signature -->
+  <g fill="#141416" stroke="#2c2c30" stroke-width="1.5">
+    <circle cx="200" cy="315" r="28"/>
+    <rect x="140" y="210" width="120" height="65" rx="8"/>
+  </g>
+  <circle cx="200" cy="315" r="8" fill="#555"/>
+  <rect x="155" y="228" width="90" height="8" rx="2" fill="#777"/>
+  <rect x="155" y="246" width="60" height="8" rx="2" fill="#444"/>
+
+  <!-- Milestone 2: Mid-Contract Silent Phase -->
+  <g fill="#141416" stroke="#2c2c30" stroke-width="1.5">
+    <circle cx="420" cy="315" r="28"/>
+    <rect x="360" y="210" width="120" height="65" rx="8"/>
+  </g>
+  <circle cx="420" cy="315" r="8" fill="#555"/>
+  <rect x="375" y="228" width="80" height="8" rx="2" fill="#777"/>
+  <rect x="375" y="246" width="50" height="8" rx="2" fill="#444"/>
+
+  <!-- Milestone 3: 90-Day Renewal Window (The Critical Chasm) -->
+  <g fill="#18150f" stroke="#FFB100" stroke-width="2">
+    <circle cx="680" cy="315" r="34"/>
+    <rect x="580" y="180" width="200" height="85" rx="10"/>
+  </g>
+  <circle cx="680" cy="315" r="10" fill="#FFB100"/>
+  <rect x="605" y="202" width="150" height="10" rx="3" fill="#FFB100"/>
+  <rect x="605" y="222" width="110" height="8" rx="2" fill="#888"/>
+  <rect x="605" y="238" width="70" height="8" rx="2" fill="#555"/>
+
+  <!-- Diverging Path: The Silent Drop vs Managed Continuation -->
+  <!-- Upper branch: Active Renewal Protocol -->
+  <path d="M 714 315 C 800 315, 840 240, 960 240" fill="none" stroke="#FFB100" stroke-width="2.5"/>
+  <g fill="#141416" stroke="#FFB100" stroke-width="1.5">
+    <rect x="960" y="205" width="100" height="70" rx="8"/>
+  </g>
+  <rect x="975" y="225" width="70" height="10" rx="2" fill="#FFB100"/>
+  <rect x="975" y="245" width="45" height="8" rx="2" fill="#777"/>
+
+  <!-- Lower branch: The Unmonitored Silent Lapse -->
+  <path d="M 714 315 C 800 315, 840 390, 960 390" fill="none" stroke="#333" stroke-width="2" stroke-dasharray="4 4"/>
+  <g fill="#121214" stroke="#222" stroke-width="1.5">
+    <rect x="960" y="355" width="100" height="70" rx="8"/>
+  </g>
+  <rect x="975" y="375" width="70" height="10" rx="2" fill="#444"/>
+  <line x1="975" y1="395" x2="1035" y2="405" stroke="#662222" stroke-width="2"/>
+  <line x1="1035" y1="395" x2="975" y2="405" stroke="#662222" stroke-width="2"/>
+</svg>
