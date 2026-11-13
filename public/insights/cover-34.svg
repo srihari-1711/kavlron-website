@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <rect width="1200" height="630" fill="#0A0A0A"/>
+  
+  <pattern id="grid34" width="40" height="40" patternUnits="userSpaceOnUse">
+    <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#1a1a1a" stroke-width="1"/>
+  </pattern>
+  <rect width="1200" height="630" fill="url(#grid34)"/>
+
+  <!-- Left: Inbound Signed Agreement Node -->
+  <g fill="#141416" stroke="#2c2c30" stroke-width="1.5">
+    <rect x="140" y="240" width="180" height="150" rx="10"/>
+  </g>
+  <rect x="165" y="270" width="130" height="12" rx="3" fill="#FFB100"/>
+  <rect x="165" y="295" width="90" height="8" rx="2" fill="#666"/>
+  <rect x="165" y="315" width="110" height="8" rx="2" fill="#444"/>
+  <circle cx="295" cy="276" r="5" fill="#FFB100"/>
+
+  <!-- Diverging Orchestration Lines (Parallel Pipeline) -->
+  <path d="M 320 270 C 400 270, 420 180, 500 180" fill="none" stroke="#333" stroke-width="2"/>
+  <path d="M 320 300 C 400 300, 420 270, 500 270" fill="none" stroke="#FFB100" stroke-width="2"/>
+  <path d="M 320 330 C 400 330, 420 360, 500 360" fill="none" stroke="#333" stroke-width="2"/>
+  <path d="M 320 360 C 400 360, 420 450, 500 450" fill="none" stroke="#333" stroke-width="2"/>
+
+  <!-- Center: 4 Parallel Autonomous Provisioning Modules -->
+  <g fill="#16161a" stroke="#2a2a30" stroke-width="1.5">
+    <rect x="500" y="150" width="280" height="60" rx="8"/>
+    <rect x="500" y="240" width="280" height="60" rx="8"/>
+    <rect x="500" y="330" width="280" height="60" rx="8"/>
+    <rect x="500" y="420" width="280" height="60" rx="8"/>
+  </g>
+  <!-- Module 1: Document & Contract Parsing -->
+  <rect x="525" y="168" width="110" height="10" rx="2" fill="#888"/>
+  <rect x="525" y="186" width="160" height="8" rx="2" fill="#444"/>
+  <circle cx="750" cy="180" r="5" fill="#444"/>
+
+  <!-- Module 2: System Provisioning & Access -->
+  <rect x="525" y="258" width="130" height="10" rx="2" fill="#FFB100"/>
+  <rect x="525" y="276" width="180" height="8" rx="2" fill="#666"/>
+  <circle cx="750" cy="270" r="5" fill="#FFB100"/>
+
+  <!-- Module 3: Billing & Ledger Setup -->
+  <rect x="525" y="348" width="120" height="10" rx="2" fill="#888"/>
+  <rect x="525" y="366" width="150" height="8" rx="2" fill="#444"/>
+  <circle cx="750" cy="360" r="5" fill="#444"/>
+
+  <!-- Module 4: Delivery Team Briefing Dossier -->
+  <rect x="525" y="438" width="140" height="10" rx="2" fill="#888"/>
+  <rect x="525" y="456" width="130" height="8" rx="2" fill="#444"/>
+  <circle cx="750" cy="450" r="5" fill="#444"/>
+
+  <!-- Converging Lines to Activated Client State -->
+  <path d="M 780 180 C 860 180, 880 270, 940 270" fill="none" stroke="#333" stroke-width="2"/>
+  <path d="M 780 270 L 940 300" fill="none" stroke="#FFB100" stroke-width="2"/>
+  <path d="M 780 360 C 860 360, 880 330, 940 330" fill="none" stroke="#333" stroke-width="2"/>
+  <path d="M 780 450 C 860 450, 880 360, 940 360" fill="none" stroke="#333" stroke-width="2"/>
+
+  <!-- Right: Active Live Account State -->
+  <g fill="#18150f" stroke="#FFB100" stroke-width="2">
+    <rect x="940" y="240" width="160" height="150" rx="10"/>
+  </g>
+  <rect x="965" y="270" width="110" height="12" rx="3" fill="#FFB100"/>
+  <rect x="965" y="295" width="80" height="8" rx="2" fill="#888"/>
+  <rect x="965" y="315" width="95" height="8" rx="2" fill="#555"/>
+  <circle cx="1065" cy="355" r="8" fill="#FFB100"/>
+</svg>

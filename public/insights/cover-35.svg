@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <rect width="1200" height="630" fill="#0A0A0A"/>
+  
+  <pattern id="grid35" width="40" height="40" patternUnits="userSpaceOnUse">
+    <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#1a1a1a" stroke-width="1"/>
+  </pattern>
+  <rect width="1200" height="630" fill="url(#grid35)"/>
+
+  <!-- Horizontal Process Sequence (Task 1 -> Handoff -> Task 2 -> Handoff -> Task 3) -->
+  <!-- Station 1: Commercial Handover -->
+  <g fill="#141416" stroke="#2c2c30" stroke-width="1.5">
+    <rect x="140" y="210" width="180" height="210" rx="10"/>
+  </g>
+  <rect x="165" y="235" width="100" height="12" rx="3" fill="#666"/>
+  <rect x="165" y="260" width="130" height="8" rx="2" fill="#444"/>
+  <rect x="165" y="280" width="90" height="8" rx="2" fill="#333"/>
+  <circle cx="290" cy="385" r="8" fill="#444"/>
+
+  <!-- Connector 1: Fast Execution (Minimal latency) -->
+  <line x1="320" y1="315" x2="420" y2="315" stroke="#333" stroke-width="2"/>
+  <circle cx="370" cy="315" r="4" fill="#666"/>
+
+  <!-- Station 2: Technical Scoping -->
+  <g fill="#141416" stroke="#2c2c30" stroke-width="1.5">
+    <rect x="420" y="210" width="180" height="210" rx="10"/>
+  </g>
+  <rect x="445" y="235" width="110" height="12" rx="3" fill="#666"/>
+  <rect x="445" y="260" width="130" height="8" rx="2" fill="#444"/>
+  <rect x="445" y="280" width="80" height="8" rx="2" fill="#333"/>
+  <circle cx="570" cy="385" r="8" fill="#444"/>
+
+  <!-- Connector 2: The Critical Handoff Stall (Focal Inspection Area) -->
+  <line x1="600" y1="315" x2="740" y2="315" stroke="#FFB100" stroke-width="3" stroke-dasharray="6 4"/>
+
+  <!-- Inspection Radar / Loupe around the stalled handoff gap -->
+  <circle cx="670" cy="315" r="44" fill="#18150f" stroke="#FFB100" stroke-width="2"/>
+  <circle cx="670" cy="315" r="14" fill="#FFB100"/>
+  <line x1="670" y1="240" x2="670" y2="270" stroke="#FFB100" stroke-width="1.5"/>
+  <rect x="615" y="175" width="110" height="26" rx="4" fill="#1a1608" stroke="#FFB100" stroke-width="1"/>
+  <rect x="630" y="184" width="80" height="8" rx="2" fill="#FFB100"/>
+
+  <!-- Station 3: Production Delivery (Delayed Downstream) -->
+  <g fill="#141416" stroke="#2c2c30" stroke-width="1.5">
+    <rect x="740" y="210" width="180" height="210" rx="10"/>
+  </g>
+  <rect x="765" y="235" width="110" height="12" rx="3" fill="#555"/>
+  <rect x="765" y="260" width="120" height="8" rx="2" fill="#333"/>
+  <rect x="765" y="280" width="100" height="8" rx="2" fill="#292929"/>
+  <circle cx="890" cy="385" r="8" fill="#FFB100"/>
+
+  <!-- Connector 3: Slipping Timeline Indicator -->
+  <line x1="920" y1="315" x2="1020" y2="315" stroke="#333" stroke-width="2"/>
+
+  <!-- Station 4: Client Acceptance -->
+  <g fill="#121214" stroke="#252528" stroke-width="1.5">
+    <rect x="1020" y="210" width="80" height="210" rx="10"/>
+  </g>
+  <rect x="1035" y="235" width="50" height="12" rx="3" fill="#444"/>
+</svg>

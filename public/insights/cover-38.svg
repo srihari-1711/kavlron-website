@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <rect width="1200" height="630" fill="#0A0A0A"/>
+  
+  <pattern id="grid38" width="40" height="40" patternUnits="userSpaceOnUse">
+    <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#1a1a1a" stroke-width="1"/>
+  </pattern>
+  <rect width="1200" height="630" fill="url(#grid38)"/>
+
+  <!-- Left: 4 Direct Underlying Enterprise Data Sources -->
+  <g fill="#141416" stroke="#2c2c30" stroke-width="1.5">
+    <rect x="140" y="160" width="200" height="65" rx="8"/>
+    <rect x="140" y="245" width="200" height="65" rx="8"/>
+    <rect x="140" y="330" width="200" height="65" rx="8"/>
+    <rect x="140" y="415" width="200" height="65" rx="8"/>
+  </g>
+  <rect x="160" y="180" width="90" height="10" rx="2" fill="#777"/>
+  <rect x="160" y="198" width="130" height="6" rx="1" fill="#444"/>
+  <rect x="160" y="265" width="110" height="10" rx="2" fill="#777"/>
+  <rect x="160" y="283" width="90" height="6" rx="1" fill="#444"/>
+  <rect x="160" y="350" width="100" height="10" rx="2" fill="#777"/>
+  <rect x="160" y="368" width="140" height="6" rx="1" fill="#444"/>
+  <rect x="160" y="435" width="85" height="10" rx="2" fill="#777"/>
+  <rect x="160" y="453" width="115" height="6" rx="1" fill="#444"/>
+
+  <!-- Direct Pipeline Ingestion Lines Converging into Live Executive Dashboard -->
+  <path d="M 340 192 C 440 192, 450 240, 520 240" fill="none" stroke="#FFB100" stroke-width="2"/>
+  <path d="M 340 277 L 520 280" fill="none" stroke="#FFB100" stroke-width="2"/>
+  <path d="M 340 362 L 520 330" fill="none" stroke="#FFB100" stroke-width="2"/>
+  <path d="M 340 447 C 440 447, 450 370, 520 370" fill="none" stroke="#FFB100" stroke-width="2"/>
+
+  <!-- Center-Right: Autonomous Live Executive Intelligence Pack -->
+  <g fill="#16161a" stroke="#FFB100" stroke-width="2">
+    <rect x="520" y="150" width="540" height="340" rx="12"/>
+    <line x1="520" y1="210" x2="1060" y2="210" stroke="#252528"/>
+    <rect x="550" y="174" width="180" height="14" rx="3" fill="#FFB100"/>
+    <circle cx="1030" cy="181" r="6" fill="#FFB100"/>
+  </g>
+
+  <!-- Live Executive Metric Cards (Self-Compiling) -->
+  <g fill="#1f1a10" stroke="#3d3012" stroke-width="1.2">
+    <rect x="550" y="235" width="220" height="95" rx="8"/>
+    <rect x="790" y="235" width="240" height="95" rx="8"/>
+    <rect x="550" y="350" width="480" height="115" rx="8"/>
+  </g>
+  <rect x="570" y="255" width="80" height="8" rx="2" fill="#FFB100"/>
+  <rect x="570" y="275" width="130" height="20" rx="3" fill="#2b200b"/>
+  <rect x="580" y="280" width="90" height="10" rx="2" fill="#FFB100"/>
+
+  <rect x="810" y="255" width="90" height="8" rx="2" fill="#FFB100"/>
+  <rect x="810" y="275" width="150" height="20" rx="3" fill="#2b200b"/>
+  <rect x="820" y="280" width="110" height="10" rx="2" fill="#FFB100"/>
+
+  <!-- Bottom Trendline Feed (Self-Assembled) -->
+  <rect x="570" y="370" width="140" height="8" rx="2" fill="#888"/>
+  <path d="M 570 430 L 640 420 L 720 425 L 800 395 L 880 405 L 960 385 L 1000 380" fill="none" stroke="#FFB100" stroke-width="2.5"/>
+  <circle cx="1000" cy="380" r="5" fill="#FFB100"/>
+</svg>

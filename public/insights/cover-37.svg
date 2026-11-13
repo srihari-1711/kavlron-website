@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <rect width="1200" height="630" fill="#0A0A0A"/>
+  
+  <pattern id="grid37" width="40" height="40" patternUnits="userSpaceOnUse">
+    <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#1a1a1a" stroke-width="1"/>
+  </pattern>
+  <rect width="1200" height="630" fill="url(#grid37)"/>
+
+  <!-- Left: Inbound RFP / Commercial Enquiry Input -->
+  <g fill="#141416" stroke="#2c2c30" stroke-width="1.5">
+    <rect x="140" y="220" width="180" height="190" rx="10"/>
+  </g>
+  <rect x="165" y="245" width="110" height="12" rx="3" fill="#FFB100"/>
+  <rect x="165" y="270" width="130" height="8" rx="2" fill="#666"/>
+  <rect x="165" y="290" width="90" height="8" rx="2" fill="#444"/>
+  <circle cx="290" cy="375" r="8" fill="#FFB100"/>
+
+  <!-- Central Speed Runway (Quote Acceleration Pipeline) -->
+  <g fill="#18150f" stroke="#FFB100" stroke-width="2">
+    <rect x="380" y="180" width="440" height="270" rx="14"/>
+    <line x1="380" y1="240" x2="820" y2="240" stroke="#2a2210"/>
+    <rect x="410" y="202" width="180" height="14" rx="3" fill="#FFB100"/>
+  </g>
+
+  <!-- 3 Automated Steps Inside the Runway -->
+  <g fill="#1e180d" stroke="#3d3012">
+    <rect x="410" y="260" width="380" height="45" rx="6"/>
+    <rect x="410" y="320" width="380" height="45" rx="6"/>
+    <rect x="410" y="380" width="380" height="45" rx="6"/>
+  </g>
+  <!-- Step 1: Specs & Rate Card Lookup -->
+  <rect x="430" y="274" width="140" height="10" rx="2" fill="#FFB100"/>
+  <rect x="430" y="290" width="180" height="6" rx="1" fill="#888"/>
+  <circle cx="760" cy="282" r="5" fill="#FFB100"/>
+
+  <!-- Step 2: Algorithmic Margin & Approval Verification -->
+  <rect x="430" y="334" width="160" height="10" rx="2" fill="#FFB100"/>
+  <rect x="430" y="350" width="200" height="6" rx="1" fill="#888"/>
+  <circle cx="760" cy="342" r="5" fill="#FFB100"/>
+
+  <!-- Step 3: Instant Document Assembly & Delivery -->
+  <rect x="430" y="394" width="130" height="10" rx="2" fill="#FFB100"/>
+  <rect x="430" y="410" width="170" height="6" rx="1" fill="#888"/>
+  <circle cx="760" cy="402" r="5" fill="#FFB100"/>
+
+  <!-- Speed Chevron Lines from Left into Center -->
+  <line x1="320" y1="315" x2="380" y2="315" stroke="#FFB100" stroke-width="3"/>
+  <polygon points="370,309 380,315 370,321" fill="#FFB100"/>
+
+  <!-- Right: Closed Win Conversion Node -->
+  <line x1="820" y1="315" x2="900" y2="315" stroke="#FFB100" stroke-width="3"/>
+  <polygon points="890,309 900,315 890,321" fill="#FFB100"/>
+
+  <g fill="#141416" stroke="#FFB100" stroke-width="2">
+    <rect x="900" y="220" width="160" height="190" rx="10"/>
+  </g>
+  <rect x="925" y="250" width="110" height="12" rx="3" fill="#FFB100"/>
+  <rect x="925" y="280" width="90" height="8" rx="2" fill="#888"/>
+  <rect x="925" y="300" width="70" height="8" rx="2" fill="#555"/>
+  <circle cx="1025" cy="375" r="10" fill="#FFB100"/>
+  <path d="M 1020 375 L 1024 379 L 1031 371" stroke="#0A0A0A" stroke-width="2" fill="none"/>
+</svg>

@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <rect width="1200" height="630" fill="#0A0A0A"/>
+  
+  <pattern id="grid36" width="40" height="40" patternUnits="userSpaceOnUse">
+    <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#1a1a1a" stroke-width="1"/>
+  </pattern>
+  <rect width="1200" height="630" fill="url(#grid36)"/>
+
+  <!-- Left: Inbound Employee & Candidate Ingestion Stream -->
+  <g fill="#141416" stroke="#2c2c30" stroke-width="1.5">
+    <rect x="140" y="210" width="220" height="210" rx="10"/>
+  </g>
+  <rect x="165" y="235" width="130" height="12" rx="3" fill="#666"/>
+  <rect x="165" y="260" width="170" height="8" rx="2" fill="#444"/>
+  <rect x="165" y="280" width="120" height="8" rx="2" fill="#333"/>
+
+  <!-- Inbound Request Queue Items -->
+  <g fill="#1d1d22" stroke="#25252a">
+    <rect x="165" y="310" width="170" height="26" rx="4"/>
+    <rect x="165" y="345" width="170" height="26" rx="4"/>
+    <rect x="165" y="380" width="170" height="26" rx="4"/>
+  </g>
+  <rect x="175" y="320" width="90" height="6" rx="2" fill="#FFB100"/>
+  <rect x="175" y="355" width="110" height="6" rx="2" fill="#666"/>
+  <rect x="175" y="390" width="80" height="6" rx="2" fill="#666"/>
+
+  <!-- Central Triage & Decision Fork -->
+  <path d="M 360 280 C 440 280, 460 210, 540 210" fill="none" stroke="#FFB100" stroke-width="2.5"/>
+  <path d="M 360 350 C 440 350, 460 420, 540 420" fill="none" stroke="#333" stroke-width="2"/>
+
+  <!-- Upper Channel: High-Volume Routine Automated Operations (80%) -->
+  <g fill="#18150f" stroke="#FFB100" stroke-width="1.5">
+    <rect x="540" y="160" width="360" height="110" rx="10"/>
+  </g>
+  <rect x="565" y="185" width="160" height="12" rx="3" fill="#FFB100"/>
+  <rect x="565" y="208" width="220" height="8" rx="2" fill="#888"/>
+  <rect x="565" y="226" width="180" height="8" rx="2" fill="#555"/>
+  <circle cx="865" cy="191" r="6" fill="#FFB100"/>
+
+  <!-- Lower Channel: High-Touch Human Advisory Lane (20%) -->
+  <g fill="#141416" stroke="#2c2c30" stroke-width="1.5">
+    <rect x="540" y="360" width="360" height="110" rx="10"/>
+  </g>
+  <rect x="565" y="385" width="140" height="12" rx="3" fill="#666"/>
+  <rect x="565" y="408" width="200" height="8" rx="2" fill="#444"/>
+  <rect x="565" y="426" width="150" height="8" rx="2" fill="#333"/>
+  <circle cx="865" cy="391" r="6" fill="#444"/>
+
+  <!-- Right: Synchronized HRIS & Employee Ledger -->
+  <path d="M 900 215 L 980 270" fill="none" stroke="#FFB100" stroke-width="2"/>
+  <path d="M 900 415 L 980 360" fill="none" stroke="#333" stroke-width="2"/>
+
+  <g fill="#121214" stroke="#28282e" stroke-width="1.5">
+    <rect x="980" y="220" width="120" height="190" rx="10"/>
+  </g>
+  <rect x="1000" y="250" width="80" height="10" rx="2" fill="#888"/>
+  <rect x="1000" y="280" width="60" height="6" rx="2" fill="#555"/>
+  <rect x="1000" y="300" width="70" height="6" rx="2" fill="#555"/>
+  <rect x="1000" y="320" width="50" height="6" rx="2" fill="#FFB100"/>
+</svg>
