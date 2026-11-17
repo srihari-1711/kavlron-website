@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <rect width="1200" height="630" fill="#0A0A0A"/>
+  
+  <pattern id="grid40" width="40" height="40" patternUnits="userSpaceOnUse">
+    <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#1a1a1a" stroke-width="1"/>
+  </pattern>
+  <rect width="1200" height="630" fill="url(#grid40)"/>
+
+  <!-- Account Health Timeline Container -->
+  <g fill="#141416" stroke="#2c2c30" stroke-width="1.5">
+    <rect x="140" y="150" width="920" height="330" rx="14"/>
+    <line x1="140" y1="215" x2="1060" y2="215" stroke="#222"/>
+    <rect x="170" y="176" width="160" height="14" rx="3" fill="#666"/>
+  </g>
+
+  <!-- Telemetry Baseline: Latency / Friction Signal Waves -->
+  <!-- Signal 1: Response Latency (Drifting from 2 hrs to 3 days) -->
+  <rect x="170" y="240" width="180" height="45" rx="6" fill="#1b1b20" stroke="#25252c"/>
+  <rect x="185" y="258" width="120" height="8" rx="2" fill="#888"/>
+  <path d="M 350 262 L 600 262 L 750 320 L 950 390" fill="none" stroke="#FFB100" stroke-width="2.5"/>
+
+  <!-- Signal 2: Milestone Approvals Stalling -->
+  <rect x="170" y="305" width="180" height="45" rx="6" fill="#1b1b20" stroke="#25252c"/>
+  <rect x="185" y="323" width="140" height="8" rx="2" fill="#888"/>
+  <path d="M 350 327 L 650 327 L 800 370 L 950 410" fill="none" stroke="#666" stroke-width="2" stroke-dasharray="4 4"/>
+
+  <!-- Signal 3: Executive Meeting Attendance Drop -->
+  <rect x="170" y="370" width="180" height="45" rx="6" fill="#1b1b20" stroke="#25252c"/>
+  <rect x="185" y="388" width="100" height="8" rx="2" fill="#888"/>
+  <path d="M 350 392 L 700 392 L 850 420 L 950 430" fill="none" stroke="#444" stroke-width="2"/>
+
+  <!-- Early Warning Detection Window (Radar Pulse Zone) -->
+  <g fill="#18150f" stroke="#FFB100" stroke-width="2">
+    <rect x="620" y="235" width="220" height="185" rx="10"/>
+  </g>
+  <rect x="645" y="255" width="150" height="12" rx="3" fill="#FFB100"/>
+  <rect x="645" y="278" width="170" height="8" rx="2" fill="#888"/>
+  <circle cx="810" cy="261" r="5" fill="#FFB100"/>
+
+  <rect x="645" y="305" width="170" height="26" rx="4" fill="#261e0e"/>
+  <rect x="655" y="314" width="120" height="8" rx="2" fill="#FFB100"/>
+
+  <rect x="645" y="345" width="170" height="26" rx="4" fill="#261e0e"/>
+  <rect x="655" y="354" width="140" height="8" rx="2" fill="#FFB100"/>
+
+  <!-- Downstream: Avoided Churn / Actionable Intervention Trigger -->
+  <circle cx="950" cy="390" r="18" fill="#18150f" stroke="#FFB100" stroke-width="2"/>
+  <path d="M 943 390 L 957 390 M 950 383 L 950 397" stroke="#FFB100" stroke-width="2"/>
+</svg>
