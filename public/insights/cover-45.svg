@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <rect width="1200" height="630" fill="#0A0A0A"/>
+  
+  <pattern id="grid45" width="40" height="40" patternUnits="userSpaceOnUse">
+    <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#1a1a1a" stroke-width="1"/>
+  </pattern>
+  <rect width="1200" height="630" fill="url(#grid45)"/>
+
+  <!-- 24-Hour Horizon Arc -->
+  <line x1="140" y1="315" x2="1060" y2="315" stroke="#252528" stroke-width="2"/>
+
+  <!-- Day Horizon Box (09:00 - 18:00) -->
+  <g fill="#141416" stroke="#333" stroke-width="1.5">
+    <rect x="180" y="200" width="380" height="230" rx="12"/>
+    <line x1="180" y1="260" x2="560" y2="260" stroke="#222"/>
+  </g>
+  <rect x="205" y="222" width="140" height="12" rx="3" fill="#666"/>
+  <circle cx="530" cy="230" r="14" fill="#1d1d22" stroke="#444"/>
+  <path d="M 530 222 L 530 230 L 535 230" stroke="#888" stroke-width="2" fill="none"/>
+
+  <!-- Active Staffed Channels (Day) -->
+  <rect x="205" y="280" width="330" height="38" rx="6" fill="#1a1a20" stroke="#282830"/>
+  <rect x="220" y="293" width="160" height="10" rx="2" fill="#888"/>
+  <rect x="205" y="330" width="330" height="38" rx="6" fill="#1a1a20" stroke="#282830"/>
+  <rect x="220" y="343" width="130" height="10" rx="2" fill="#888"/>
+  <rect x="205" y="380" width="330" height="38" rx="6" fill="#1a1a20" stroke="#282830"/>
+  <rect x="220" y="393" width="180" height="10" rx="2" fill="#888"/>
+
+  <!-- Night / After-Hours Horizon Box (18:00 - 09:00) The Uncovered Gap Turned Active -->
+  <g fill="#18150f" stroke="#FFB100" stroke-width="2">
+    <rect x="620" y="170" width="440" height="290" rx="14"/>
+    <line x1="620" y1="235" x2="1060" y2="235" stroke="#2d220e"/>
+  </g>
+  <rect x="650" y="196" width="180" height="14" rx="3" fill="#FFB100"/>
+  <circle cx="1025" cy="203" r="16" fill="#261e0e" stroke="#FFB100" stroke-width="1.5"/>
+  <!-- Crescent Moon Symbol inside Night indicator -->
+  <path d="M 1021 195 A 10 10 0 1 0 1032 209 A 8 8 0 1 1 1021 195 Z" fill="#FFB100"/>
+
+  <!-- Autonomous Response & Intake Modules (Active 24/7) -->
+  <g fill="#1f1a10" stroke="#3a2e14">
+    <rect x="650" y="255" width="380" height="55" rx="8"/>
+    <rect x="650" y="325" width="380" height="55" rx="8"/>
+    <rect x="650" y="395" width="380" height="55" rx="8"/>
+  </g>
+  <!-- Intake Stream 1: Instant Inbound Qualification -->
+  <rect x="670" y="271" width="140" height="10" rx="2" fill="#FFB100"/>
+  <rect x="670" y="289" width="200" height="6" rx="1" fill="#888"/>
+  <circle cx="1005" cy="282" r="5" fill="#FFB100"/>
+
+  <!-- Intake Stream 2: Autonomous Appointment Booking -->
+  <rect x="670" y="341" width="160" height="10" rx="2" fill="#FFB100"/>
+  <rect x="670" y="359" width="170" height="6" rx="1" fill="#888"/>
+  <circle cx="1005" cy="352" r="5" fill="#FFB100"/>
+
+  <!-- Intake Stream 3: Contextual Morning Rep Briefing -->
+  <rect x="670" y="411" width="130" height="10" rx="2" fill="#FFB100"/>
+  <rect x="670" y="429" width="190" height="6" rx="1" fill="#888"/>
+  <circle cx="1005" cy="422" r="5" fill="#FFB100"/>
+
+  <!-- Inflow Pulse from left to right -->
+  <line x1="560" y1="315" x2="620" y2="315" stroke="#FFB100" stroke-width="2.5"/>
+  <polygon points="610,309 620,315 610,321" fill="#FFB100"/>
+</svg>

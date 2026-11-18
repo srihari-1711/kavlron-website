@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <rect width="1200" height="630" fill="#0A0A0A"/>
+  
+  <pattern id="grid48" width="40" height="40" patternUnits="userSpaceOnUse">
+    <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#1a1a1a" stroke-width="1"/>
+  </pattern>
+  <rect width="1200" height="630" fill="url(#grid48)"/>
+
+  <!-- Left: Inactive / Lapsed Customer Cohort Base -->
+  <g fill="#141416" stroke="#25252c" stroke-width="1.5">
+    <rect x="140" y="160" width="280" height="310" rx="12"/>
+    <line x1="140" y1="220" x2="420" y2="220" stroke="#222"/>
+    <rect x="165" y="185" width="140" height="12" rx="3" fill="#666"/>
+  </g>
+  <!-- Inactive Customer Cards -->
+  <g fill="#181820" stroke="#222">
+    <rect x="165" y="240" width="230" height="42" rx="6"/>
+    <rect x="165" y="295" width="230" height="42" rx="6"/>
+    <rect x="165" y="350" width="230" height="42" rx="6"/>
+    <rect x="165" y="405" width="230" height="42" rx="6"/>
+  </g>
+  <rect x="180" y="254" width="110" height="8" rx="2" fill="#555"/>
+  <rect x="180" y="268" width="150" height="6" rx="1" fill="#333"/>
+
+  <rect x="180" y="309" width="130" height="8" rx="2" fill="#555"/>
+  <rect x="180" y="323" width="110" height="6" rx="1" fill="#333"/>
+
+  <rect x="180" y="364" width="100" height="8" rx="2" fill="#555"/>
+  <rect x="180" y="378" width="140" height="6" rx="1" fill="#333"/>
+
+  <rect x="180" y="419" width="120" height="8" rx="2" fill="#555"/>
+  <rect x="180" y="433" width="90" height="6" rx="1" fill="#333"/>
+
+  <!-- Continuous Circulation Loop (The Systematic Reactivation Engine) -->
+  <path d="M 420 315 C 500 315, 520 230, 600 230 C 680 230, 700 315, 780 315" fill="none" stroke="#FFB100" stroke-width="2.5"/>
+  <path d="M 780 315 C 700 315, 680 400, 600 400 C 520 400, 500 315, 420 315" fill="none" stroke="#333" stroke-width="2" stroke-dasharray="6 4"/>
+
+  <!-- Central Trigger Filter Node -->
+  <g fill="#18150f" stroke="#FFB100" stroke-width="2">
+    <circle cx="600" cy="230" r="38"/>
+  </g>
+  <circle cx="600" cy="230" r="12" fill="#FFB100"/>
+  <circle cx="600" cy="400" r="28" fill="#141416" stroke="#444" stroke-width="1.5"/>
+
+  <!-- Right: Reactivated Active Commercial Stream -->
+  <path d="M 780 315 L 850 315" stroke="#FFB100" stroke-width="2.5" fill="none"/>
+  <polygon points="840,309 850,315 840,321" fill="#FFB100"/>
+
+  <g fill="#18150f" stroke="#FFB100" stroke-width="2">
+    <rect x="850" y="160" width="220" height="310" rx="12"/>
+    <line x1="850" y1="220" x2="1070" y2="220" stroke="#2d220e"/>
+  </g>
+  <rect x="875" y="185" width="130" height="12" rx="3" fill="#FFB100"/>
+  <circle cx="1040" cy="191" r="6" fill="#FFB100"/>
+
+  <!-- Active Reactivated Accounts -->
+  <g fill="#211a0e" stroke="#3a2e14">
+    <rect x="875" y="240" width="170" height="60" rx="6"/>
+    <rect x="875" y="320" width="170" height="60" rx="6"/>
+    <rect x="875" y="400" width="170" height="60" rx="6"/>
+  </g>
+  <rect x="890" y="255" width="100" height="10" rx="2" fill="#FFB100"/>
+  <rect x="890" y="273" width="130" height="6" rx="1" fill="#888"/>
+  <circle cx="1025" cy="260" r="4" fill="#FFB100"/>
+
+  <rect x="890" y="335" width="110" height="10" rx="2" fill="#FFB100"/>
+  <rect x="890" y="353" width="120" height="6" rx="1" fill="#888"/>
+  <circle cx="1025" cy="340" r="4" fill="#FFB100"/>
+
+  <rect x="890" y="415" width="95" height="10" rx="2" fill="#FFB100"/>
+  <rect x="890" y="433" width="140" height="6" rx="1" fill="#888"/>
+  <circle cx="1025" cy="420" r="4" fill="#FFB100"/>
+</svg>

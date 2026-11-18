@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <rect width="1200" height="630" fill="#0A0A0A"/>
+  
+  <pattern id="grid44" width="40" height="40" patternUnits="userSpaceOnUse">
+    <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#1a1a1a" stroke-width="1"/>
+  </pattern>
+  <rect width="1200" height="630" fill="url(#grid44)"/>
+
+  <!-- Left: 3 Disconnected Input Records (Contract, PO, Timesheet/Delivery) -->
+  <g fill="#141416" stroke="#2c2c30" stroke-width="1.5">
+    <rect x="140" y="160" width="220" height="85" rx="8"/>
+    <rect x="140" y="270" width="220" height="85" rx="8"/>
+    <rect x="140" y="380" width="220" height="85" rx="8"/>
+  </g>
+  <!-- Record 1: Signed Agreement Terms -->
+  <rect x="165" y="180" width="120" height="10" rx="2" fill="#FFB100"/>
+  <rect x="165" y="200" width="160" height="8" rx="2" fill="#666"/>
+  <rect x="165" y="218" width="100" height="8" rx="2" fill="#444"/>
+
+  <!-- Record 2: Client Purchase Order -->
+  <rect x="165" y="290" width="140" height="10" rx="2" fill="#888"/>
+  <rect x="165" y="310" width="170" height="8" rx="2" fill="#666"/>
+  <rect x="165" y="328" width="110" height="8" rx="2" fill="#444"/>
+
+  <!-- Record 3: Operational Delivery Record -->
+  <rect x="165" y="400" width="130" height="10" rx="2" fill="#888"/>
+  <rect x="165" y="420" width="150" height="8" rx="2" fill="#666"/>
+  <rect x="165" y="438" width="90" height="8" rx="2" fill="#444"/>
+
+  <!-- Convergence Lines into Central Reconciliation Matrix -->
+  <path d="M 360 202 L 480 270" stroke="#FFB100" stroke-width="2" fill="none"/>
+  <path d="M 360 312 L 480 312" stroke="#333" stroke-width="2" fill="none"/>
+  <path d="M 360 422 L 480 354" stroke="#333" stroke-width="2" fill="none"/>
+
+  <!-- Center: 3-Way Reconciliation Engine -->
+  <g fill="#18150f" stroke="#FFB100" stroke-width="2">
+    <rect x="480" y="210" width="280" height="210" rx="12"/>
+    <line x1="480" y1="265" x2="760" y2="265" stroke="#2d220e"/>
+    <rect x="505" y="230" width="150" height="14" rx="3" fill="#FFB100"/>
+  </g>
+  <!-- Reconciliation Rows -->
+  <g fill="#1f1a10" stroke="#3a2e14">
+    <rect x="505" y="285" width="230" height="34" rx="5"/>
+    <rect x="505" y="328" width="230" height="34" rx="5"/>
+    <rect x="505" y="371" width="230" height="34" rx="5"/>
+  </g>
+  <rect x="520" y="297" width="120" height="8" rx="2" fill="#FFB100"/>
+  <circle cx="715" cy="301" r="5" fill="#FFB100"/>
+
+  <rect x="520" y="340" width="140" height="8" rx="2" fill="#888"/>
+  <circle cx="715" cy="344" r="5" fill="#444"/>
+
+  <!-- Discrepancy Flag (The Mismatch) -->
+  <rect x="520" y="383" width="100" height="8" rx="2" fill="#FFB100"/>
+  <circle cx="715" cy="387" r="7" fill="#882222" stroke="#FFB100" stroke-width="1.5"/>
+
+  <!-- Diverging Resolution Paths -->
+  <!-- Upper: Disputed / Late Invoicing Path (Traditional Drag) -->
+  <path d="M 760 280 C 840 280, 860 210, 940 210" fill="none" stroke="#444" stroke-width="2" stroke-dasharray="6 4"/>
+  <g fill="#141416" stroke="#333" stroke-width="1.5">
+    <rect x="940" y="170" width="180" height="80" rx="8"/>
+  </g>
+  <rect x="960" y="192" width="110" height="10" rx="2" fill="#666"/>
+  <rect x="960" y="214" width="130" height="8" rx="2" fill="#444"/>
+
+  <!-- Lower: Automated Resolution & Straight-Through Billed Clean Invoice -->
+  <path d="M 760 350 C 840 350, 860 410, 940 410" fill="none" stroke="#FFB100" stroke-width="2.5"/>
+  <g fill="#18150f" stroke="#FFB100" stroke-width="2">
+    <rect x="940" y="370" width="180" height="80" rx="8"/>
+  </g>
+  <rect x="960" y="392" width="120" height="12" rx="3" fill="#FFB100"/>
+  <rect x="960" y="416" width="140" height="8" rx="2" fill="#888"/>
+  <circle cx="1090" cy="410" r="6" fill="#FFB100"/>
+</svg>

@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <rect width="1200" height="630" fill="#0A0A0A"/>
+  
+  <pattern id="grid46" width="40" height="40" patternUnits="userSpaceOnUse">
+    <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#1a1a1a" stroke-width="1"/>
+  </pattern>
+  <rect width="1200" height="630" fill="url(#grid46)"/>
+
+  <!-- Physical Goods Administrative Workflow Pipeline -->
+  <!-- Station 1: Customer Order Intake (PDF / EDI / Email) -->
+  <g fill="#141416" stroke="#2c2c30" stroke-width="1.5">
+    <rect x="140" y="210" width="190" height="210" rx="10"/>
+  </g>
+  <rect x="165" y="235" width="110" height="12" rx="3" fill="#666"/>
+  <rect x="165" y="260" width="140" height="8" rx="2" fill="#444"/>
+  <rect x="165" y="280" width="90" height="8" rx="2" fill="#333"/>
+  <!-- SKU List Representation -->
+  <rect x="165" y="310" width="140" height="16" rx="3" fill="#1f1f24"/>
+  <rect x="165" y="335" width="140" height="16" rx="3" fill="#1f1f24"/>
+  <rect x="165" y="360" width="140" height="16" rx="3" fill="#1f1f24"/>
+
+  <!-- Fast Forward Connector 1 -->
+  <line x1="330" y1="315" x2="430" y2="315" stroke="#FFB100" stroke-width="2"/>
+  <polygon points="420,309 430,315 420,321" fill="#FFB100"/>
+
+  <!-- Station 2: Automated PO & Supplier Routing -->
+  <g fill="#18150f" stroke="#FFB100" stroke-width="2">
+    <rect x="430" y="190" width="300" height="250" rx="12"/>
+    <line x1="430" y1="250" x2="730" y2="250" stroke="#2d220e"/>
+  </g>
+  <rect x="455" y="215" width="160" height="14" rx="3" fill="#FFB100"/>
+  <circle cx="700" cy="222" r="6" fill="#FFB100"/>
+
+  <!-- Internal Operational Steps -->
+  <g fill="#1f1a10" stroke="#3a2e14">
+    <rect x="455" y="270" width="250" height="42" rx="6"/>
+    <rect x="455" y="325" width="250" height="42" rx="6"/>
+    <rect x="455" y="380" width="250" height="42" rx="6"/>
+  </g>
+  <!-- Step 1: Inventory & Stock Check -->
+  <rect x="475" y="284" width="130" height="8" rx="2" fill="#FFB100"/>
+  <circle cx="680" cy="291" r="5" fill="#FFB100"/>
+
+  <!-- Step 2: Supplier PO Dispatched -->
+  <rect x="475" y="339" width="140" height="8" rx="2" fill="#FFB100"/>
+  <circle cx="680" cy="346" r="5" fill="#FFB100"/>
+
+  <!-- Step 3: Warehouse Pick List Staged -->
+  <rect x="475" y="394" width="120" height="8" rx="2" fill="#FFB100"/>
+  <circle cx="680" cy="401" r="5" fill="#FFB100"/>
+
+  <!-- Fast Forward Connector 2 -->
+  <line x1="730" y1="315" x2="830" y2="315" stroke="#FFB100" stroke-width="2"/>
+  <polygon points="820,309 830,315 820,321" fill="#FFB100"/>
+
+  <!-- Station 3: Proactive Customer Status & Telemetry Feed -->
+  <g fill="#141416" stroke="#2c2c30" stroke-width="1.5">
+    <rect x="830" y="210" width="230" height="210" rx="10"/>
+  </g>
+  <rect x="855" y="235" width="140" height="12" rx="3" fill="#888"/>
+  <rect x="855" y="260" width="180" height="8" rx="2" fill="#555"/>
+
+  <!-- Live Status Signals -->
+  <g fill="#1c1c22" stroke="#282830">
+    <rect x="855" y="290" width="180" height="30" rx="5"/>
+    <rect x="855" y="330" width="180" height="30" rx="5"/>
+    <rect x="855" y="370" width="180" height="30" rx="5"/>
+  </g>
+  <rect x="870" y="300" width="100" height="8" rx="2" fill="#FFB100"/>
+  <circle cx="1015" cy="305" r="4" fill="#FFB100"/>
+
+  <rect x="870" y="340" width="120" height="8" rx="2" fill="#888"/>
+  <circle cx="1015" cy="345" r="4" fill="#888"/>
+
+  <rect x="870" y="380" width="90" height="8" rx="2" fill="#888"/>
+  <circle cx="1015" cy="385" r="4" fill="#444"/>
+</svg>
