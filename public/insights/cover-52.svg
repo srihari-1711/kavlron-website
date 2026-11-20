@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <rect width="1200" height="630" fill="#0A0A0A"/>
+  
+  <pattern id="grid52" width="40" height="40" patternUnits="userSpaceOnUse">
+    <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#1a1a1a" stroke-width="1"/>
+  </pattern>
+  <rect width="1200" height="630" fill="url(#grid52)"/>
+
+  <!-- Left: Inflow of Operational Approvals -->
+  <g fill="#141416" stroke="#25252c" stroke-width="1.5">
+    <rect x="80" y="160" width="280" height="320" rx="10"/>
+    <text x="110" y="200" fill="#FFFFFF" font-family="system-ui, -apple-system, sans-serif" font-size="15" font-weight="600">Incoming Requests</text>
+    
+    <g transform="translate(100, 225)">
+      <rect width="240" height="50" rx="6" fill="#1a1a20" stroke="#33333f"/>
+      <text x="14" y="24" fill="#e4e4e7" font-family="system-ui, -apple-system, sans-serif" font-size="12">Standard PO (€3,200, In Budget)</text>
+      <text x="14" y="40" fill="#71717a" font-family="system-ui, -apple-system, sans-serif" font-size="10">Vendor: Tier-1 Verified</text>
+    </g>
+
+    <g transform="translate(100, 285)">
+      <rect width="240" height="50" rx="6" fill="#1a1a20" stroke="#33333f"/>
+      <text x="14" y="24" fill="#e4e4e7" font-family="system-ui, -apple-system, sans-serif" font-size="12">Discount Request (4% on standard)</text>
+      <text x="14" y="40" fill="#71717a" font-family="system-ui, -apple-system, sans-serif" font-size="10">Deal: Contracted renewal</text>
+    </g>
+
+    <g transform="translate(100, 345)">
+      <rect width="240" height="50" rx="6" fill="#241a1a" stroke="#ef4444"/>
+      <text x="14" y="24" fill="#f87171" font-family="system-ui, -apple-system, sans-serif" font-size="12">Non-Standard Indemnity Clause</text>
+      <text x="14" y="40" fill="#a1a1aa" font-family="system-ui, -apple-system, sans-serif" font-size="10">Risk: High liability variation</text>
+    </g>
+
+    <g transform="translate(100, 405)">
+      <rect width="240" height="50" rx="6" fill="#1a1a20" stroke="#33333f"/>
+      <text x="14" y="24" fill="#e4e4e7" font-family="system-ui, -apple-system, sans-serif" font-size="12">Standard Expense Reimbursement</text>
+      <text x="14" y="40" fill="#71717a" font-family="system-ui, -apple-system, sans-serif" font-size="10">Policy: Matched to receipts</text>
+    </g>
+  </g>
+
+  <!-- Middle: Triage & Policy Engine -->
+  <g transform="translate(420, 200)">
+    <rect width="320" height="240" rx="10" fill="#171720" stroke="#6366f1" stroke-width="1.5"/>
+    <text x="24" y="40" fill="#a5b4fc" font-family="system-ui, -apple-system, sans-serif" font-size="15" font-weight="600">Decision &amp; Policy Matrix</text>
+    <text x="24" y="70" fill="#94a3b8" font-family="system-ui, -apple-system, sans-serif" font-size="12">Does this require human judgment?</text>
+    <line x1="24" y1="90" x2="296" y2="90" stroke="#2e2e42"/>
+
+    <text x="24" y="125" fill="#34d399" font-family="system-ui, -apple-system, sans-serif" font-size="12" font-weight="600">✓ Within Established Tolerances</text>
+    <text x="36" y="145" fill="#71717a" font-family="system-ui, -apple-system, sans-serif" font-size="11">&rarr; Record audit trail &amp; auto-clear</text>
+
+    <text x="24" y="185" fill="#f87171" font-family="system-ui, -apple-system, sans-serif" font-size="12" font-weight="600">⚠ True Exception / High Risk</text>
+    <text x="36" y="205" fill="#71717a" font-family="system-ui, -apple-system, sans-serif" font-size="11">&rarr; Route to executive with full brief</text>
+  </g>
+
+  <!-- Connectors -->
+  <path d="M 360 320 L 420 320" stroke="#6366f1" stroke-width="2"/>
+
+  <!-- Right: Split Execution -->
+  <g transform="translate(800, 160)">
+    <!-- Branch 1: Auto-Execute with Audit Log -->
+    <g fill="#141416" stroke="#10b981" stroke-width="1.5">
+      <rect width="320" height="135" rx="8"/>
+      <text x="20" y="32" fill="#34d399" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="600">85% Automated Pass-Through</text>
+      <text x="20" y="55" fill="#a1a1aa" font-family="system-ui, -apple-system, sans-serif" font-size="11">• Instant execution into ERP</text>
+      <text x="20" y="75" fill="#a1a1aa" font-family="system-ui, -apple-system, sans-serif" font-size="11">• Tamper-evident ledger record</text>
+      <text x="20" y="95" fill="#a1a1aa" font-family="system-ui, -apple-system, sans-serif" font-size="11">• Operations proceed without delay</text>
+      <text x="20" y="115" fill="#34d399" font-family="system-ui, -apple-system, sans-serif" font-size="11">Turnaround: &lt; 2 seconds</text>
+    </g>
+
+    <!-- Branch 2: High-Context Human Review -->
+    <g transform="translate(0, 185)" fill="#141416" stroke="#ef4444" stroke-width="1.5">
+      <rect width="320" height="135" rx="8"/>
+      <text x="20" y="32" fill="#f87171" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="600">15% Targeted Human Judgment</text>
+      <text x="20" y="55" fill="#a1a1aa" font-family="system-ui, -apple-system, sans-serif" font-size="11">• Pre-compiled risk summary</text>
+      <text x="20" y="75" fill="#a1a1aa" font-family="system-ui, -apple-system, sans-serif" font-size="11">• Delivered to CEO via Slack/Mobile</text>
+      <text x="20" y="95" fill="#a1a1aa" font-family="system-ui, -apple-system, sans-serif" font-size="11">• Zero routine noise in inbox</text>
+      <text x="20" y="115" fill="#f87171" font-family="system-ui, -apple-system, sans-serif" font-size="11">Focused on genuine liability</text>
+    </g>
+  </g>
+
+  <path d="M 740 280 C 765 280, 770 230, 800 230" fill="none" stroke="#10b981" stroke-width="2"/>
+  <path d="M 740 360 C 765 360, 770 410, 800 410" fill="none" stroke="#ef4444" stroke-width="2"/>
+</svg>

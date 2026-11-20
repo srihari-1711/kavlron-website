@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <rect width="1200" height="630" fill="#0A0A0A"/>
+  
+  <pattern id="grid49" width="40" height="40" patternUnits="userSpaceOnUse">
+    <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#1a1a1a" stroke-width="1"/>
+  </pattern>
+  <rect width="1200" height="630" fill="url(#grid49)"/>
+
+  <!-- Left: Client Accounting Records & Gaps -->
+  <g fill="#141416" stroke="#25252c" stroke-width="1.5">
+    <rect x="100" y="140" width="300" height="350" rx="12"/>
+    <line x1="100" y1="200" x2="400" y2="200" stroke="#222"/>
+    
+    <!-- Header -->
+    <text x="130" y="178" fill="#FFFFFF" font-family="system-ui, -apple-system, sans-serif" font-size="16" font-weight="600">Month-End Ledger Audit</text>
+    <circle cx="370" cy="172" r="5" fill="#f59e0b"/>
+    
+    <!-- Itemised Gap Cards -->
+    <g transform="translate(120, 220)">
+      <rect width="260" height="60" rx="6" fill="#1c1c22" stroke="#ef4444" stroke-width="1.2"/>
+      <text x="16" y="26" fill="#ef4444" font-family="system-ui, -apple-system, sans-serif" font-size="12" font-weight="600">MISSING: VAT Receipt #9842</text>
+      <text x="16" y="46" fill="#71717a" font-family="system-ui, -apple-system, sans-serif" font-size="11">Vendor: Cloud Hosting GmbH (€1,450)</text>
+    </g>
+
+    <g transform="translate(120, 295)">
+      <rect width="260" height="60" rx="6" fill="#1c1c22" stroke="#ef4444" stroke-width="1.2"/>
+      <text x="16" y="26" fill="#ef4444" font-family="system-ui, -apple-system, sans-serif" font-size="12" font-weight="600">MISSING: Payroll Schedule</text>
+      <text x="16" y="46" fill="#71717a" font-family="system-ui, -apple-system, sans-serif" font-size="11">Entity: SG Operations Pte Ltd</text>
+    </g>
+
+    <g transform="translate(120, 370)">
+      <rect width="260" height="60" rx="6" fill="#1c1c22" stroke="#10b981" stroke-width="1.2"/>
+      <text x="16" y="26" fill="#10b981" font-family="system-ui, -apple-system, sans-serif" font-size="12" font-weight="600">RECONCILED: Bank Feeds</text>
+      <text x="16" y="46" fill="#71717a" font-family="system-ui, -apple-system, sans-serif" font-size="11">Match rate: 100% (214 lines)</text>
+    </g>
+  </g>
+
+  <!-- Middle: Dynamic Dispatch Router -->
+  <g transform="translate(450, 240)">
+    <rect width="280" height="150" rx="10" fill="#18181f" stroke="#3b82f6" stroke-width="1.5"/>
+    <text x="24" y="36" fill="#60a5fa" font-family="system-ui, -apple-system, sans-serif" font-size="14" font-weight="600">Itemised Per-Client Dispatch</text>
+    <text x="24" y="60" fill="#a1a1aa" font-family="system-ui, -apple-system, sans-serif" font-size="12">1. Isolates exact un-reconciled lines</text>
+    <text x="24" y="82" fill="#a1a1aa" font-family="system-ui, -apple-system, sans-serif" font-size="12">2. Matches preferred response channel</text>
+    <text x="24" y="104" fill="#a1a1aa" font-family="system-ui, -apple-system, sans-serif" font-size="12">3. Auto-clears item on receipt</text>
+
+    <!-- Connector lines -->
+    <path d="M -50 75 L 0 75" stroke="#3b82f6" stroke-width="2" stroke-dasharray="4,4"/>
+  </g>
+
+  <!-- Right: Multi-Channel Delivery to Client -->
+  <g transform="translate(780, 150)">
+    <!-- WhatsApp / SMS Card -->
+    <g fill="#141416" stroke="#25252c" stroke-width="1.2">
+      <rect width="320" height="85" rx="8"/>
+      <circle cx="30" cy="42" r="14" fill="#10b981" fill-opacity="0.2"/>
+      <text x="56" y="36" fill="#10b981" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="600">Direct Messaging Route</text>
+      <text x="56" y="58" fill="#d4d4d8" font-family="system-ui, -apple-system, sans-serif" font-size="11">1-click camera upload link for receipt #9842</text>
+    </g>
+
+    <!-- Client Portal Card -->
+    <g transform="translate(0, 110)" fill="#141416" stroke="#25252c" stroke-width="1.2">
+      <rect width="320" height="85" rx="8"/>
+      <circle cx="30" cy="42" r="14" fill="#3b82f6" fill-opacity="0.2"/>
+      <text x="56" y="36" fill="#60a5fa" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="600">Finance Portal Sync</text>
+      <text x="56" y="58" fill="#d4d4d8" font-family="system-ui, -apple-system, sans-serif" font-size="11">Secure drag-and-drop for payroll file</text>
+    </g>
+
+    <!-- Auto-Closing Loop -->
+    <g transform="translate(0, 220)" fill="#141416" stroke="#10b981" stroke-width="1.5">
+      <rect width="320" height="85" rx="8"/>
+      <circle cx="30" cy="42" r="14" fill="#10b981"/>
+      <text x="56" y="36" fill="#FFFFFF" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="600">Reconciled Into General Ledger</text>
+      <text x="56" y="58" fill="#a1a1aa" font-family="system-ui, -apple-system, sans-serif" font-size="11">Zero manual chases required</text>
+    </g>
+  </g>
+
+  <!-- Connectors from middle to right -->
+  <path d="M 730 290 C 750 290, 755 192, 780 192" fill="none" stroke="#3b82f6" stroke-width="2"/>
+  <path d="M 730 315 C 750 315, 755 260, 780 260" fill="none" stroke="#3b82f6" stroke-width="2"/>
+  <path d="M 730 340 C 750 340, 755 370, 780 370" fill="none" stroke="#10b981" stroke-width="2"/>
+</svg>
