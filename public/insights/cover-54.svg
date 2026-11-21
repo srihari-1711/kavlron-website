@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <rect width="1200" height="630" fill="#0A0A0A"/>
+  
+  <pattern id="grid54" width="40" height="40" patternUnits="userSpaceOnUse">
+    <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#1a1a1a" stroke-width="1"/>
+  </pattern>
+  <rect width="1200" height="630" fill="url(#grid54)"/>
+
+  <!-- Left: Mixed Inbound Document Stream -->
+  <g fill="#141416" stroke="#25252c" stroke-width="1.5">
+    <rect x="80" y="140" width="280" height="350" rx="12"/>
+    <line x1="80" y1="200" x2="360" y2="200" stroke="#222"/>
+    
+    <text x="105" y="178" fill="#FFFFFF" font-family="system-ui, -apple-system, sans-serif" font-size="15" font-weight="600">Unstructured Inbound</text>
+    <circle cx="330" cy="172" r="5" fill="#f59e0b"/>
+
+    <g transform="translate(100, 220)">
+      <rect width="240" height="55" rx="6" fill="#1c1c22" stroke="#3f3f46"/>
+      <text x="14" y="24" fill="#60a5fa" font-family="system-ui, -apple-system, sans-serif" font-size="11" font-weight="600">EMAIL BODY &amp; THREAD</text>
+      <text x="14" y="42" fill="#71717a" font-family="system-ui, -apple-system, sans-serif" font-size="10">Freight confirmation with embedded rates</text>
+    </g>
+
+    <g transform="translate(100, 285)">
+      <rect width="240" height="55" rx="6" fill="#1c1c22" stroke="#3f3f46"/>
+      <text x="14" y="24" fill="#a855f7" font-family="system-ui, -apple-system, sans-serif" font-size="11" font-weight="600">SCANNED PDF / TIFF</text>
+      <text x="14" y="42" fill="#71717a" font-family="system-ui, -apple-system, sans-serif" font-size="10">Skewed bill of lading with stamped seals</text>
+    </g>
+
+    <g transform="translate(100, 350)">
+      <rect width="240" height="55" rx="6" fill="#1c1c22" stroke="#3f3f46"/>
+      <text x="14" y="24" fill="#10b981" font-family="system-ui, -apple-system, sans-serif" font-size="11" font-weight="600">MOBILE PHOTO / JPEG</text>
+      <text x="14" y="42" fill="#71717a" font-family="system-ui, -apple-system, sans-serif" font-size="10">Fuel &amp; toll receipts captured in the field</text>
+    </g>
+
+    <g transform="translate(100, 415)">
+      <rect width="240" height="55" rx="6" fill="#1c1c22" stroke="#3f3f46"/>
+      <text x="14" y="24" fill="#f59e0b" font-family="system-ui, -apple-system, sans-serif" font-size="11" font-weight="600">DIGITAL SUPPLIER INVOICE</text>
+      <text x="14" y="42" fill="#71717a" font-family="system-ui, -apple-system, sans-serif" font-size="10">Multi-page PDF with 80+ item lines</text>
+    </g>
+  </g>
+
+  <!-- Middle: Structured Processing Engine -->
+  <g transform="translate(410, 190)">
+    <rect width="360" height="250" rx="12" fill="#16161e" stroke="#3b82f6" stroke-width="1.5"/>
+    <text x="24" y="38" fill="#60a5fa" font-family="system-ui, -apple-system, sans-serif" font-size="15" font-weight="600">Intelligent Extraction &amp; Validation</text>
+    <text x="24" y="62" fill="#a1a1aa" font-family="system-ui, -apple-system, sans-serif" font-size="12">Normalizing visual chaos into structured data</text>
+    <line x1="24" y1="80" x2="336" y2="80" stroke="#252538"/>
+
+    <g transform="translate(24, 100)">
+      <rect width="312" height="36" rx="4" fill="#1f1f2e"/>
+      <text x="12" y="23" fill="#38bdf8" font-family="system-ui, -apple-system, sans-serif" font-size="11">1. OCR &amp; Spatial Document Geometry Parsing</text>
+    </g>
+
+    <g transform="translate(24, 145)">
+      <rect width="312" height="36" rx="4" fill="#1f1f2e"/>
+      <text x="12" y="23" fill="#38bdf8" font-family="system-ui, -apple-system, sans-serif" font-size="11">2. Entity Extraction: PO#, VAT ID, Line Items</text>
+    </g>
+
+    <g transform="translate(24, 190)">
+      <rect width="312" height="36" rx="4" fill="#1f1f2e"/>
+      <text x="12" y="23" fill="#38bdf8" font-family="system-ui, -apple-system, sans-serif" font-size="11">3. Automated Master Data Cross-Reference</text>
+    </g>
+  </g>
+
+  <!-- Right: Clean Execution & Exception Handling -->
+  <g transform="translate(820, 160)">
+    <!-- Pass: ERP Record Creation -->
+    <g fill="#141416" stroke="#10b981" stroke-width="1.5">
+      <rect width="300" height="135" rx="8"/>
+      <circle cx="28" cy="32" r="10" fill="#10b981" fill-opacity="0.2"/>
+      <text x="48" y="36" fill="#34d399" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="600">92% Straight-Through Entry</text>
+      <text x="20" y="65" fill="#d4d4d8" font-family="system-ui, -apple-system, sans-serif" font-size="11">Writes clean records to ERP / GL directly</text>
+      <text x="20" y="85" fill="#a1a1aa" font-family="system-ui, -apple-system, sans-serif" font-size="11">Attaches original document as audit artifact</text>
+      <text x="20" y="112" fill="#10b981" font-family="system-ui, -apple-system, sans-serif" font-size="11" font-weight="600">Processing Time: &lt; 5 seconds</text>
+    </g>
+
+    <!-- Exception: Human In The Loop -->
+    <g transform="translate(0, 175)" fill="#141416" stroke="#f59e0b" stroke-width="1.5">
+      <rect width="300" height="135" rx="8"/>
+      <circle cx="28" cy="32" r="10" fill="#f59e0b" fill-opacity="0.2"/>
+      <text x="48" y="36" fill="#fbbf24" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="600">8% Ambiguity Triage</text>
+      <text x="20" y="65" fill="#d4d4d8" font-family="system-ui, -apple-system, sans-serif" font-size="11">Smudged text or unknown vendor tax ID</text>
+      <text x="20" y="85" fill="#a1a1aa" font-family="system-ui, -apple-system, sans-serif" font-size="11">Presents exact line to operator with crop</text>
+      <text x="20" y="112" fill="#fbbf24" font-family="system-ui, -apple-system, sans-serif" font-size="11" font-weight="600">Operator Review: 15 seconds</text>
+    </g>
+  </g>
+
+  <!-- Connectors -->
+  <path d="M 360 315 L 410 315" stroke="#3b82f6" stroke-width="2"/>
+  <path d="M 770 290 C 790 290, 795 225, 820 225" fill="none" stroke="#10b981" stroke-width="2"/>
+  <path d="M 770 340 C 790 340, 795 405, 820 405" fill="none" stroke="#f59e0b" stroke-width="2"/>
+</svg>

@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <rect width="1200" height="630" fill="#0A0A0A"/>
+  
+  <pattern id="grid58" width="40" height="40" patternUnits="userSpaceOnUse">
+    <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#1a1a1a" stroke-width="1"/>
+  </pattern>
+  <rect width="1200" height="630" fill="url(#grid58)"/>
+
+  <!-- Left: The Meeting Room -->
+  <g fill="#141416" stroke="#25252c" stroke-width="1.5">
+    <rect x="80" y="150" width="280" height="330" rx="12"/>
+    <text x="105" y="190" fill="#FFFFFF" font-family="system-ui, -apple-system, sans-serif" font-size="15" font-weight="600">Executive Meeting</text>
+    <line x1="80" y1="210" x2="360" y2="210" stroke="#222"/>
+
+    <g transform="translate(100, 230)">
+      <rect width="240" height="70" rx="6" fill="#1b1b22"/>
+      <text x="14" y="24" fill="#a1a1aa" font-family="system-ui, -apple-system, sans-serif" font-size="11">"David will revise the vendor SLA"</text>
+      <text x="14" y="44" fill="#a1a1aa" font-family="system-ui, -apple-system, sans-serif" font-size="11">"Sarah to update commercial rates"</text>
+      <text x="14" y="60" fill="#71717a" font-family="system-ui, -apple-system, sans-serif" font-size="10">Spoken agreements in the room</text>
+    </g>
+
+    <g transform="translate(100, 315)">
+      <rect width="240" height="145" rx="6" fill="#221818" stroke="#ef4444"/>
+      <text x="14" y="24" fill="#f87171" font-family="system-ui, -apple-system, sans-serif" font-size="11" font-weight="600">The Silent Death of Decisions</text>
+      <text x="14" y="48" fill="#d4d4d8" font-family="system-ui, -apple-system, sans-serif" font-size="10">• Buried in handwritten notebooks</text>
+      <text x="14" y="70" fill="#d4d4d8" font-family="system-ui, -apple-system, sans-serif" font-size="10">• No single unambiguous owner</text>
+      <text x="14" y="92" fill="#d4d4d8" font-family="system-ui, -apple-system, sans-serif" font-size="10">• No recorded completion deadline</text>
+      <text x="14" y="120" fill="#ef4444" font-family="system-ui, -apple-system, sans-serif" font-size="10" font-weight="bold">Discovered unfinished 7 days later</text>
+    </g>
+  </g>
+
+  <!-- Middle: Structured Task Extractor -->
+  <g transform="translate(410, 170)">
+    <rect width="360" height="290" rx="12" fill="#161824" stroke="#3b82f6" stroke-width="1.5"/>
+    <text x="24" y="38" fill="#60a5fa" font-family="system-ui, -apple-system, sans-serif" font-size="15" font-weight="600">Decision-to-Task Compiler</text>
+    <text x="24" y="62" fill="#94a3b8" font-family="system-ui, -apple-system, sans-serif" font-size="12">Transforming verbal consensus into accountable work</text>
+    <line x1="24" y1="80" x2="336" y2="80" stroke="#252945"/>
+
+    <g transform="translate(24, 100)">
+      <rect width="312" height="50" rx="6" fill="#1c1f33"/>
+      <text x="12" y="22" fill="#38bdf8" font-family="system-ui, -apple-system, sans-serif" font-size="11" font-weight="600">1. Action Item Extraction</text>
+      <text x="12" y="38" fill="#94a3b8" font-family="system-ui, -apple-system, sans-serif" font-size="10">Filters general debate from concrete commitments</text>
+    </g>
+
+    <g transform="translate(24, 160)">
+      <rect width="312" height="50" rx="6" fill="#1c1f33"/>
+      <text x="12" y="22" fill="#38bdf8" font-family="system-ui, -apple-system, sans-serif" font-size="11" font-weight="600">2. Owner &amp; Deadline Anchoring</text>
+      <text x="12" y="38" fill="#94a3b8" font-family="system-ui, -apple-system, sans-serif" font-size="10">Assigns exactly one individual + calendar timestamp</text>
+    </g>
+
+    <g transform="translate(24, 220)">
+      <rect width="312" height="50" rx="6" fill="#1c1f33"/>
+      <text x="12" y="22" fill="#38bdf8" font-family="system-ui, -apple-system, sans-serif" font-size="11" font-weight="600">3. Direct Enterprise Tool Integration</text>
+      <text x="12" y="38" fill="#94a3b8" font-family="system-ui, -apple-system, sans-serif" font-size="10">Pushes ticket to Jira / Asana / ERP automatically</text>
+    </g>
+  </g>
+
+  <!-- Right: Accountable Execution Loop -->
+  <g transform="translate(820, 150)" fill="#141416" stroke="#10b981" stroke-width="1.5">
+    <rect width="300" height="330" rx="12"/>
+    <text x="24" y="38" fill="#FFFFFF" font-family="system-ui, -apple-system, sans-serif" font-size="15" font-weight="600">Closed-Loop Accountability</text>
+    <line x1="0" y1="58" x2="300" y2="58" stroke="#222"/>
+
+    <g transform="translate(20, 80)">
+      <rect width="260" height="65" rx="6" fill="#17221c"/>
+      <text x="12" y="24" fill="#34d399" font-family="system-ui, -apple-system, sans-serif" font-size="12" font-weight="600">Immediate Owner Confirmation</text>
+      <text x="12" y="44" fill="#a1a1aa" font-family="system-ui, -apple-system, sans-serif" font-size="10">Owner receives brief via Slack with 1-click accept</text>
+    </g>
+
+    <g transform="translate(20, 160)">
+      <rect width="260" height="65" rx="6" fill="#17221c"/>
+      <text x="12" y="24" fill="#34d399" font-family="system-ui, -apple-system, sans-serif" font-size="12" font-weight="600">Autonomous Follow-Up</text>
+      <text x="12" y="44" fill="#a1a1aa" font-family="system-ui, -apple-system, sans-serif" font-size="10">System polls for deliverables 48h before deadline</text>
+    </g>
+
+    <g transform="translate(20, 240)">
+      <rect width="260" height="65" rx="6" fill="#17221c"/>
+      <text x="12" y="24" fill="#38bdf8" font-family="system-ui, -apple-system, sans-serif" font-size="12" font-weight="600">Next Meeting Agenda Ready</text>
+      <text x="12" y="44" fill="#34d399" font-family="system-ui, -apple-system, sans-serif" font-size="10">100% of prior decisions accounted for</text>
+    </g>
+  </g>
+
+  <!-- Connectors -->
+  <path d="M 360 315 L 410 315" stroke="#3b82f6" stroke-width="2"/>
+  <path d="M 770 315 L 820 315" stroke="#10b981" stroke-width="2"/>
+</svg>

@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <rect width="1200" height="630" fill="#0A0A0A"/>
+  
+  <pattern id="grid55" width="40" height="40" patternUnits="userSpaceOnUse">
+    <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#1a1a1a" stroke-width="1"/>
+  </pattern>
+  <rect width="1200" height="630" fill="url(#grid55)"/>
+
+  <!-- Inbound Invoice -->
+  <g fill="#141416" stroke="#25252c" stroke-width="1.5">
+    <rect x="80" y="180" width="240" height="270" rx="10"/>
+    <text x="105" y="218" fill="#FFFFFF" font-family="system-ui, -apple-system, sans-serif" font-size="15" font-weight="600">Incoming Invoice</text>
+    <rect x="100" y="240" width="200" height="185" rx="6" fill="#1b1b22"/>
+    <text x="116" y="270" fill="#a1a1aa" font-family="system-ui, -apple-system, sans-serif" font-size="11">Vendor: Apex Engineering</text>
+    <text x="116" y="295" fill="#a1a1aa" font-family="system-ui, -apple-system, sans-serif" font-size="11">Inv #: APX-8941</text>
+    <text x="116" y="320" fill="#a1a1aa" font-family="system-ui, -apple-system, sans-serif" font-size="11">Amount: €24,850.00</text>
+    <text x="116" y="345" fill="#a1a1aa" font-family="system-ui, -apple-system, sans-serif" font-size="11">IBAN: DE89 3704 ...</text>
+    <text x="116" y="380" fill="#f59e0b" font-family="system-ui, -apple-system, sans-serif" font-size="11">Status: Pending AP Run</text>
+  </g>
+
+  <!-- Middle: The 3 Automated Verification Gates -->
+  <g transform="translate(370, 150)">
+    <!-- Gate 1: Duplicate Match Engine -->
+    <g fill="#16161f" stroke="#3b82f6" stroke-width="1.2">
+      <rect width="380" height="95" rx="8"/>
+      <text x="20" y="30" fill="#60a5fa" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="600">Gate 1: Exact &amp; Fuzzy Duplicate Hash</text>
+      <text x="20" y="52" fill="#d4d4d8" font-family="system-ui, -apple-system, sans-serif" font-size="11">Matches: amount + vendor within rolling 90-day window</text>
+      <text x="20" y="74" fill="#a1a1aa" font-family="system-ui, -apple-system, sans-serif" font-size="11">Catches: resubmissions with modified punctuation/dates</text>
+    </g>
+
+    <!-- Gate 2: Bank & Vendor Master Audit -->
+    <g transform="translate(0, 115)" fill="#16161f" stroke="#3b82f6" stroke-width="1.2">
+      <rect width="380" height="95" rx="8"/>
+      <text x="20" y="30" fill="#60a5fa" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="600">Gate 2: Payment Detail Integrity Check</text>
+      <text x="20" y="52" fill="#d4d4d8" font-family="system-ui, -apple-system, sans-serif" font-size="11">Compares remit-to bank account against approved master record</text>
+      <text x="20" y="74" fill="#a1a1aa" font-family="system-ui, -apple-system, sans-serif" font-size="11">Catches: email compromise fraud &amp; altered PDF banking coordinates</text>
+    </g>
+
+    <!-- Gate 3: 3-Way Reconciliation -->
+    <g transform="translate(0, 230)" fill="#16161f" stroke="#3b82f6" stroke-width="1.2">
+      <rect width="380" height="95" rx="8"/>
+      <text x="20" y="30" fill="#60a5fa" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="600">Gate 3: PO &amp; Goods Receipt Triangulation</text>
+      <text x="20" y="52" fill="#d4d4d8" font-family="system-ui, -apple-system, sans-serif" font-size="11">Verifies approved PO balance and physical delivery sign-off</text>
+      <text x="20" y="74" fill="#a1a1aa" font-family="system-ui, -apple-system, sans-serif" font-size="11">Catches: phantom billing for unrendered services or items</text>
+    </g>
+  </g>
+
+  <!-- Right: Outcome Resolution -->
+  <g transform="translate(800, 170)">
+    <!-- Red Alert: Blocked & Flagged -->
+    <g fill="#1f1414" stroke="#ef4444" stroke-width="1.5">
+      <rect width="320" height="120" rx="8"/>
+      <circle cx="28" cy="28" r="10" fill="#ef4444" fill-opacity="0.2"/>
+      <text x="48" y="32" fill="#f87171" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="600">FRAUD ALERT: Remittance Divergence</text>
+      <text x="20" y="60" fill="#fca5a5" font-family="system-ui, -apple-system, sans-serif" font-size="11">IBAN does not match verified vendor registry</text>
+      <text x="20" y="80" fill="#a1a1aa" font-family="system-ui, -apple-system, sans-serif" font-size="11">Disbursement frozen; security team alerted</text>
+      <text x="20" y="102" fill="#ef4444" font-family="system-ui, -apple-system, sans-serif" font-size="11" font-weight="600">Capital Protected: €24,850.00</text>
+    </g>
+
+    <!-- Green Pass: Scheduled Cleanly -->
+    <g transform="translate(0, 150)" fill="#141f18" stroke="#10b981" stroke-width="1.5">
+      <rect width="320" height="120" rx="8"/>
+      <circle cx="28" cy="28" r="10" fill="#10b981" fill-opacity="0.2"/>
+      <text x="48" y="32" fill="#34d399" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="600">VERIFIED: Scheduled for Payment</text>
+      <text x="20" y="60" fill="#6ee7b7" font-family="system-ui, -apple-system, sans-serif" font-size="11">Passed all 3 mathematical gates without error</text>
+      <text x="20" y="80" fill="#a1a1aa" font-family="system-ui, -apple-system, sans-serif" font-size="11">Entered batch run with early settlement discount</text>
+      <text x="20" y="102" fill="#10b981" font-family="system-ui, -apple-system, sans-serif" font-size="11" font-weight="600">Straight-Through Processing</text>
+    </g>
+  </g>
+
+  <!-- Connectors -->
+  <path d="M 320 315 L 370 315" stroke="#3b82f6" stroke-width="2"/>
+  <path d="M 750 250 C 770 250, 780 230, 800 230" fill="none" stroke="#ef4444" stroke-width="2"/>
+  <path d="M 750 350 C 770 350, 780 370, 800 370" fill="none" stroke="#10b981" stroke-width="2"/>
+</svg>

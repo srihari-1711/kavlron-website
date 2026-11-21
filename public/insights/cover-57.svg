@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <rect width="1200" height="630" fill="#0A0A0A"/>
+  
+  <pattern id="grid57" width="40" height="40" patternUnits="userSpaceOnUse">
+    <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#1a1a1a" stroke-width="1"/>
+  </pattern>
+  <rect width="1200" height="630" fill="url(#grid57)"/>
+
+  <!-- Left: Open Request Queue with Countdown Timers -->
+  <g fill="#141416" stroke="#25252c" stroke-width="1.5">
+    <rect x="80" y="140" width="300" height="350" rx="12"/>
+    <text x="105" y="178" fill="#FFFFFF" font-family="system-ui, -apple-system, sans-serif" font-size="15" font-weight="600">Live Client Requests</text>
+    <line x1="80" y1="200" x2="380" y2="200" stroke="#222"/>
+
+    <!-- Green Ticket -->
+    <g transform="translate(100, 220)">
+      <rect width="260" height="55" rx="6" fill="#141f17" stroke="#059669"/>
+      <text x="14" y="24" fill="#34d399" font-family="system-ui, -apple-system, sans-serif" font-size="11" font-weight="600">Ticket #891: ERP Login Glitch</text>
+      <text x="14" y="42" fill="#a1a1aa" font-family="system-ui, -apple-system, sans-serif" font-size="10">SLA: 4h | Elapsed: 45m (18%) [HEALTHY]</text>
+    </g>
+
+    <!-- Amber Ticket: At Risk -->
+    <g transform="translate(100, 290)">
+      <rect width="260" height="65" rx="6" fill="#241e14" stroke="#f59e0b"/>
+      <text x="14" y="24" fill="#fbbf24" font-family="system-ui, -apple-system, sans-serif" font-size="11" font-weight="600">Order #4402: Logistics Reroute</text>
+      <text x="14" y="42" fill="#d4d4d8" font-family="system-ui, -apple-system, sans-serif" font-size="10">SLA: 2h | Elapsed: 1h 25m (70%)</text>
+      <text x="14" y="56" fill="#f59e0b" font-family="system-ui, -apple-system, sans-serif" font-size="9" font-weight="bold">WARNING: STALLED ON DISPATCH</text>
+    </g>
+
+    <!-- Critical Ticket -->
+    <g transform="translate(100, 370)">
+      <rect width="260" height="65" rx="6" fill="#261616" stroke="#ef4444"/>
+      <text x="14" y="24" fill="#f87171" font-family="system-ui, -apple-system, sans-serif" font-size="11" font-weight="600">Contract #901: Billing Dispute</text>
+      <text x="14" y="42" fill="#d4d4d8" font-family="system-ui, -apple-system, sans-serif" font-size="10">SLA: 24h | Elapsed: 21h (88%)</text>
+      <text x="14" y="56" fill="#ef4444" font-family="system-ui, -apple-system, sans-serif" font-size="9" font-weight="bold">CRITICAL: ESCALATION REQUIRED</text>
+    </g>
+  </g>
+
+  <!-- Middle: Automated Breach Interceptor -->
+  <g transform="translate(420, 180)">
+    <rect width="340" height="270" rx="12" fill="#191924" stroke="#6366f1" stroke-width="1.5"/>
+    <text x="24" y="38" fill="#a5b4fc" font-family="system-ui, -apple-system, sans-serif" font-size="15" font-weight="600">Active SLA Interceptor</text>
+    <text x="24" y="62" fill="#94a3b8" font-family="system-ui, -apple-system, sans-serif" font-size="12">Watching the clock so clients don't have to</text>
+    <line x1="24" y1="80" x2="316" y2="80" stroke="#252945"/>
+
+    <g transform="translate(24, 100)">
+      <rect width="292" height="45" rx="6" fill="#1b1f33"/>
+      <text x="12" y="20" fill="#38bdf8" font-family="system-ui, -apple-system, sans-serif" font-size="11" font-weight="600">Continuous Micro-Polls</text>
+      <text x="12" y="36" fill="#94a3b8" font-family="system-ui, -apple-system, sans-serif" font-size="10">Evaluates every open ticket every 60 seconds</text>
+    </g>
+
+    <g transform="translate(24, 155)">
+      <rect width="292" height="45" rx="6" fill="#1b1f33"/>
+      <text x="12" y="20" fill="#fbbf24" font-family="system-ui, -apple-system, sans-serif" font-size="11" font-weight="600">Automated Re-Routing</text>
+      <text x="12" y="36" fill="#94a3b8" font-family="system-ui, -apple-system, sans-serif" font-size="10">Reassigns from idle agent to active tier-2 pool</text>
+    </g>
+
+    <g transform="translate(24, 210)">
+      <rect width="292" height="45" rx="6" fill="#1b1f33"/>
+      <text x="12" y="20" fill="#f87171" font-family="system-ui, -apple-system, sans-serif" font-size="11" font-weight="600">Executive Alert Trigger</text>
+      <text x="12" y="36" fill="#94a3b8" font-family="system-ui, -apple-system, sans-serif" font-size="10">Sends pre-compiled brief before breach occurs</text>
+    </g>
+  </g>
+
+  <!-- Right: Outcome Comparison -->
+  <g transform="translate(800, 160)">
+    <!-- Traditional Apology Cycle -->
+    <g fill="#1f1414" stroke="#ef4444" stroke-width="1.2">
+      <rect width="320" height="125" rx="8"/>
+      <text x="20" y="32" fill="#f87171" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="600">Traditional: Post-Breach Apology</text>
+      <text x="20" y="55" fill="#a1a1aa" font-family="system-ui, -apple-system, sans-serif" font-size="11">• Customer notices and emails angry escalation</text>
+      <text x="20" y="75" fill="#a1a1aa" font-family="system-ui, -apple-system, sans-serif" font-size="11">• Contractual SLA credit penalty enforced</text>
+      <text x="20" y="95" fill="#a1a1aa" font-family="system-ui, -apple-system, sans-serif" font-size="11">• Client trust eroded ahead of contract renewal</text>
+    </g>
+
+    <!-- Proactive Resolution -->
+    <g transform="translate(0, 150)" fill="#141f17" stroke="#10b981" stroke-width="1.5">
+      <rect width="320" height="140" rx="8"/>
+      <text x="20" y="32" fill="#34d399" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="600">Modern: Pre-Emptive Resolution</text>
+      <text x="20" y="55" fill="#a1a1aa" font-family="system-ui, -apple-system, sans-serif" font-size="11">• Bottleneck unjammed 45m before cutoff</text>
+      <text x="20" y="75" fill="#a1a1aa" font-family="system-ui, -apple-system, sans-serif" font-size="11">• Client receives answer within SLA window</text>
+      <text x="20" y="95" fill="#a1a1aa" font-family="system-ui, -apple-system, sans-serif" font-size="11">• Zero penalty credits paid; high CSAT retained</text>
+      <text x="20" y="120" fill="#34d399" font-family="system-ui, -apple-system, sans-serif" font-size="11" font-weight="600">99.8% SLA Compliance Achieved</text>
+    </g>
+  </g>
+
+  <!-- Connectors -->
+  <path d="M 380 315 L 420 315" stroke="#6366f1" stroke-width="2"/>
+  <path d="M 760 250 C 775 250, 785 220, 800 220" fill="none" stroke="#ef4444" stroke-width="2"/>
+  <path d="M 760 365 C 775 365, 785 390, 800 390" fill="none" stroke="#10b981" stroke-width="2"/>
+</svg>
