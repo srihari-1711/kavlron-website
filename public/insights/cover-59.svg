@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <rect width="1200" height="630" fill="#0A0A0A"/>
+  
+  <pattern id="grid59" width="40" height="40" patternUnits="userSpaceOnUse">
+    <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#1a1a1a" stroke-width="1"/>
+  </pattern>
+  <rect width="1200" height="630" fill="url(#grid59)"/>
+
+  <!-- Left: Live Bank Feed Lines -->
+  <g fill="#141416" stroke="#25252c" stroke-width="1.5">
+    <rect x="80" y="140" width="300" height="350" rx="12"/>
+    <text x="105" y="178" fill="#FFFFFF" font-family="system-ui, -apple-system, sans-serif" font-size="15" font-weight="600">Daily Bank Statement Feed</text>
+    <line x1="80" y1="200" x2="380" y2="200" stroke="#222"/>
+
+    <!-- Matched Line 1 -->
+    <g transform="translate(100, 220)">
+      <rect width="260" height="55" rx="6" fill="#141f17" stroke="#059669"/>
+      <text x="12" y="24" fill="#34d399" font-family="system-ui, -apple-system, sans-serif" font-size="11" font-weight="600">CR €14,200.00 — Client Wire</text>
+      <text x="12" y="42" fill="#a1a1aa" font-family="system-ui, -apple-system, sans-serif" font-size="10">Matched to Invoice #INV-9044 [100%]</text>
+    </g>
+
+    <!-- Orphan Line: Missing Invoice -->
+    <g transform="translate(100, 290)">
+      <rect width="260" height="65" rx="6" fill="#241e14" stroke="#f59e0b"/>
+      <text x="12" y="24" fill="#fbbf24" font-family="system-ui, -apple-system, sans-serif" font-size="11" font-weight="600">DR €3,450.00 — Wire Transfer</text>
+      <text x="12" y="42" fill="#d4d4d8" font-family="system-ui, -apple-system, sans-serif" font-size="10">Ref: "Project Consult / Dep"</text>
+      <text x="12" y="56" fill="#ef4444" font-family="system-ui, -apple-system, sans-serif" font-size="9" font-weight="bold">NO MATCHING INVOICE FOUND</text>
+    </g>
+
+    <!-- Orphan Line: Card Expense -->
+    <g transform="translate(100, 370)">
+      <rect width="260" height="65" rx="6" fill="#241e14" stroke="#f59e0b"/>
+      <text x="12" y="24" fill="#fbbf24" font-family="system-ui, -apple-system, sans-serif" font-size="11" font-weight="600">DR €890.00 — Corporate Card 4021</text>
+      <text x="12" y="42" fill="#d4d4d8" font-family="system-ui, -apple-system, sans-serif" font-size="10">Cardholder: Sarah Jenkins (Sales)</text>
+      <text x="12" y="56" fill="#ef4444" font-family="system-ui, -apple-system, sans-serif" font-size="9" font-weight="bold">MISSING VENDOR RECEIPT</text>
+    </g>
+  </g>
+
+  <!-- Middle: Continuous Matching Engine -->
+  <g transform="translate(420, 180)">
+    <rect width="340" height="270" rx="12" fill="#181824" stroke="#3b82f6" stroke-width="1.5"/>
+    <text x="24" y="38" fill="#60a5fa" font-family="system-ui, -apple-system, sans-serif" font-size="15" font-weight="600">Automated Resolution Engine</text>
+    <text x="24" y="62" fill="#94a3b8" font-family="system-ui, -apple-system, sans-serif" font-size="12">Transforming orphan lines into targeted questions</text>
+    <line x1="24" y1="80" x2="316" y2="80" stroke="#252945"/>
+
+    <g transform="translate(24, 100)">
+      <rect width="292" height="45" rx="6" fill="#1b1f33"/>
+      <text x="12" y="20" fill="#38bdf8" font-family="system-ui, -apple-system, sans-serif" font-size="11" font-weight="600">1. ERP Ledger Cross-Match</text>
+      <text x="12" y="36" fill="#94a3b8" font-family="system-ui, -apple-system, sans-serif" font-size="10">Evaluates POs, billings, and multi-currency splits</text>
+    </g>
+
+    <g transform="translate(24, 155)">
+      <rect width="292" height="45" rx="6" fill="#1b1f33"/>
+      <text x="12" y="20" fill="#38bdf8" font-family="system-ui, -apple-system, sans-serif" font-size="11" font-weight="600">2. Spender &amp; Owner Attribution</text>
+      <text x="12" y="36" fill="#94a3b8" font-family="system-ui, -apple-system, sans-serif" font-size="10">Maps card numbers &amp; wire references to employees</text>
+    </g>
+
+    <g transform="translate(24, 210)">
+      <rect width="292" height="45" rx="6" fill="#1b1f33"/>
+      <text x="12" y="20" fill="#34d399" font-family="system-ui, -apple-system, sans-serif" font-size="11" font-weight="600">3. One-Click Verification Routing</text>
+      <text x="12" y="36" fill="#94a3b8" font-family="system-ui, -apple-system, sans-serif" font-size="10">Dispatches micro-inquiry directly to the spender</text>
+    </g>
+  </g>
+
+  <!-- Right: Outcome & Execution -->
+  <g transform="translate(800, 160)">
+    <!-- Direct Employee Inquiry -->
+    <g fill="#141416" stroke="#f59e0b" stroke-width="1.2">
+      <rect width="320" height="125" rx="8"/>
+      <text x="20" y="32" fill="#fbbf24" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="600">Targeted Micro-Request</text>
+      <text x="20" y="55" fill="#d4d4d8" font-family="system-ui, -apple-system, sans-serif" font-size="11">Sent to Sarah Jenkins via Slack / WhatsApp:</text>
+      <text x="20" y="75" fill="#a1a1aa" font-family="system-ui, -apple-system, sans-serif" font-size="10">"Upload receipt for €890.00 client dinner on 21 Nov"</text>
+      <text x="20" y="100" fill="#fbbf24" font-family="system-ui, -apple-system, sans-serif" font-size="11" font-weight="600">Turnaround: 4 minutes via camera upload</text>
+    </g>
+
+    <!-- Clean Ledger Close -->
+    <g transform="translate(0, 150)" fill="#141f17" stroke="#10b981" stroke-width="1.5">
+      <rect width="320" height="140" rx="8"/>
+      <text x="20" y="32" fill="#34d399" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="600">Straight-Through Close</text>
+      <text x="20" y="55" fill="#a1a1aa" font-family="system-ui, -apple-system, sans-serif" font-size="11">• Document attached directly to bank line</text>
+      <text x="20" y="75" fill="#a1a1aa" font-family="system-ui, -apple-system, sans-serif" font-size="11">• Tax codes and cost centers verified</text>
+      <text x="20" y="95" fill="#a1a1aa" font-family="system-ui, -apple-system, sans-serif" font-size="11">• Zero suspense account backlog at month-end</text>
+      <text x="20" y="120" fill="#34d399" font-family="system-ui, -apple-system, sans-serif" font-size="11" font-weight="600">Month-End Ready on Day 1</text>
+    </g>
+  </g>
+
+  <!-- Connectors -->
+  <path d="M 380 315 L 420 315" stroke="#3b82f6" stroke-width="2"/>
+  <path d="M 760 250 C 775 250, 785 220, 800 220" fill="none" stroke="#f59e0b" stroke-width="2"/>
+  <path d="M 760 365 C 775 365, 785 390, 800 390" fill="none" stroke="#10b981" stroke-width="2"/>
+</svg>

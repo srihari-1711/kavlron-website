@@ -1,0 +1,100 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <rect width="1200" height="630" fill="#0A0A0A"/>
+  
+  <pattern id="grid63" width="40" height="40" patternUnits="userSpaceOnUse">
+    <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#1a1a1a" stroke-width="1"/>
+  </pattern>
+  <rect width="1200" height="630" fill="url(#grid63)"/>
+
+  <!-- Left: The Enterprise Client Systems -->
+  <g fill="#141416" stroke="#25252c" stroke-width="1.5">
+    <rect x="80" y="140" width="280" height="350" rx="12"/>
+    <text x="105" y="178" fill="#FFFFFF" font-family="system-ui, -apple-system, sans-serif" font-size="15" font-weight="600">Existing Business Tools</text>
+    <line x1="80" y1="200" x2="360" y2="200" stroke="#222"/>
+
+    <g transform="translate(100, 220)">
+      <rect width="240" height="50" rx="6" fill="#1b1b22"/>
+      <text x="12" y="24" fill="#60a5fa" font-family="system-ui, -apple-system, sans-serif" font-size="11" font-weight="600">ERP &amp; Finance Database</text>
+      <text x="12" y="40" fill="#71717a" font-family="system-ui, -apple-system, sans-serif" font-size="10">NetSuite / SAP / Odoo</text>
+    </g>
+
+    <g transform="translate(100, 285)">
+      <rect width="240" height="50" rx="6" fill="#1b1b22"/>
+      <text x="12" y="24" fill="#60a5fa" font-family="system-ui, -apple-system, sans-serif" font-size="11" font-weight="600">Commercial CRM &amp; CPQ</text>
+      <text x="12" y="40" fill="#71717a" font-family="system-ui, -apple-system, sans-serif" font-size="10">HubSpot / Salesforce</text>
+    </g>
+
+    <g transform="translate(100, 350)">
+      <rect width="240" height="50" rx="6" fill="#1b1b22"/>
+      <text x="12" y="24" fill="#60a5fa" font-family="system-ui, -apple-system, sans-serif" font-size="11" font-weight="600">Operational Comms</text>
+      <text x="12" y="40" fill="#71717a" font-family="system-ui, -apple-system, sans-serif" font-size="10">Shared Inboxes / Slack</text>
+    </g>
+
+    <g transform="translate(100, 415)">
+      <rect width="240" height="55" rx="6" fill="#16221c" stroke="#10b981"/>
+      <text x="12" y="24" fill="#34d399" font-family="system-ui, -apple-system, sans-serif" font-size="11" font-weight="600">Zero System Migrations</text>
+      <text x="12" y="42" fill="#a1a1aa" font-family="system-ui, -apple-system, sans-serif" font-size="10">Works inside software you own</text>
+    </g>
+  </g>
+
+  <!-- Middle: Week One Foundation (The 4 Anchors) -->
+  <g transform="translate(400, 150)">
+    <rect width="380" height="330" rx="12" fill="#181824" stroke="#3b82f6" stroke-width="1.5"/>
+    <text x="24" y="38" fill="#60a5fa" font-family="system-ui, -apple-system, sans-serif" font-size="15" font-weight="600">Week One Onboarding Anchors</text>
+    <text x="24" y="62" fill="#94a3b8" font-family="system-ui, -apple-system, sans-serif" font-size="12">What serious implementation partners require</text>
+    <line x1="24" y1="80" x2="356" y2="80" stroke="#252945"/>
+
+    <g transform="translate(24, 95)">
+      <rect width="332" height="48" rx="6" fill="#1b1f33"/>
+      <text x="12" y="20" fill="#38bdf8" font-family="system-ui, -apple-system, sans-serif" font-size="11" font-weight="600">1. Real System Access (Not Screen Shares)</text>
+      <text x="12" y="36" fill="#94a3b8" font-family="system-ui, -apple-system, sans-serif" font-size="10">Scoped API tokens and sandbox credentials</text>
+    </g>
+
+    <g transform="translate(24, 150)">
+      <rect width="332" height="48" rx="6" fill="#1b1f33"/>
+      <text x="12" y="20" fill="#38bdf8" font-family="system-ui, -apple-system, sans-serif" font-size="11" font-weight="600">2. Real Messy Edge Cases (Not Ideal Paths)</text>
+      <text x="12" y="36" fill="#94a3b8" font-family="system-ui, -apple-system, sans-serif" font-size="10">20 authentic historical files where things broke</text>
+    </g>
+
+    <g transform="translate(24, 205)">
+      <rect width="332" height="48" rx="6" fill="#1b1f33"/>
+      <text x="12" y="20" fill="#38bdf8" font-family="system-ui, -apple-system, sans-serif" font-size="11" font-weight="600">3. Single Operational Decision Owner</text>
+      <text x="12" y="36" fill="#94a3b8" font-family="system-ui, -apple-system, sans-serif" font-size="10">One leader authorized to resolve workflow policy</text>
+    </g>
+
+    <g transform="translate(24, 260)">
+      <rect width="332" height="48" rx="6" fill="#1b1f33"/>
+      <text x="12" y="20" fill="#34d399" font-family="system-ui, -apple-system, sans-serif" font-size="11" font-weight="600">4. Clear Human vs Machine Boundaries</text>
+      <text x="12" y="36" fill="#94a3b8" font-family="system-ui, -apple-system, sans-serif" font-size="10">Explicit definitions of automated pass-through</text>
+    </g>
+  </g>
+
+  <!-- Right: Deployed Operational Reality -->
+  <g transform="translate(820, 160)" fill="#141416" stroke="#10b981" stroke-width="1.5">
+    <rect width="300" height="310" rx="12"/>
+    <text x="24" y="38" fill="#FFFFFF" font-family="system-ui, -apple-system, sans-serif" font-size="15" font-weight="600">The Implementation Outcome</text>
+    <line x1="0" y1="58" x2="300" y2="58" stroke="#222"/>
+
+    <g transform="translate(20, 80)">
+      <rect width="260" height="60" rx="6" fill="#16221c"/>
+      <text x="12" y="24" fill="#34d399" font-family="system-ui, -apple-system, sans-serif" font-size="11" font-weight="600">No DIY Software Headaches</text>
+      <text x="12" y="44" fill="#a1a1aa" font-family="system-ui, -apple-system, sans-serif" font-size="10">Built, deployed, and run for you</text>
+    </g>
+
+    <g transform="translate(20, 155)">
+      <rect width="260" height="60" rx="6" fill="#16221c"/>
+      <text x="12" y="24" fill="#34d399" font-family="system-ui, -apple-system, sans-serif" font-size="11" font-weight="600">Deterministic Reliability</text>
+      <text x="12" y="44" fill="#a1a1aa" font-family="system-ui, -apple-system, sans-serif" font-size="10">Engineered validation &amp; retry queues</text>
+    </g>
+
+    <g transform="translate(20, 230)">
+      <rect width="260" height="60" rx="6" fill="#16221c"/>
+      <text x="12" y="24" fill="#38bdf8" font-family="system-ui, -apple-system, sans-serif" font-size="11" font-weight="600">Capacity Unlocked</text>
+      <text x="12" y="44" fill="#34d399" font-family="system-ui, -apple-system, sans-serif" font-size="10">Operations scale cleanly without linear hiring</text>
+    </g>
+  </g>
+
+  <!-- Connectors -->
+  <path d="M 360 315 L 400 315" stroke="#3b82f6" stroke-width="2"/>
+  <path d="M 780 315 L 820 315" stroke="#10b981" stroke-width="2"/>
+</svg>

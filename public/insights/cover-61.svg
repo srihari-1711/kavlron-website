@@ -1,0 +1,103 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <rect width="1200" height="630" fill="#0A0A0A"/>
+  
+  <pattern id="grid61" width="40" height="40" patternUnits="userSpaceOnUse">
+    <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#1a1a1a" stroke-width="1"/>
+  </pattern>
+  <rect width="1200" height="630" fill="url(#grid61)"/>
+
+  <!-- Left: Fragmented Manual Schedule (Before) -->
+  <g fill="#141416" stroke="#ef4444" stroke-width="1.2">
+    <rect x="80" y="140" width="300" height="350" rx="12"/>
+    <text x="105" y="178" fill="#f87171" font-family="system-ui, -apple-system, sans-serif" font-size="15" font-weight="600">Manual Phone-Tag Schedule</text>
+    <line x1="80" y1="200" x2="380" y2="200" stroke="#332222"/>
+
+    <g transform="translate(100, 220)">
+      <rect width="260" height="45" rx="6" fill="#241818"/>
+      <text x="12" y="24" fill="#fca5a5" font-family="system-ui, -apple-system, sans-serif" font-size="11">Job 1: 09:00 - 10:30 (North Sector)</text>
+    </g>
+
+    <!-- Dead Travel Gap -->
+    <g transform="translate(100, 275)">
+      <rect width="260" height="40" rx="6" fill="#1b1b22" stroke="#52525b" stroke-dasharray="3,3"/>
+      <text x="12" y="24" fill="#ef4444" font-family="system-ui, -apple-system, sans-serif" font-size="10">60m Dead Travel Gap (Cross-City)</text>
+    </g>
+
+    <g transform="translate(100, 325)">
+      <rect width="260" height="45" rx="6" fill="#241818"/>
+      <text x="12" y="24" fill="#fca5a5" font-family="system-ui, -apple-system, sans-serif" font-size="11">Job 2: 11:30 - 13:00 (South Sector)</text>
+    </g>
+
+    <g transform="translate(100, 380)">
+      <rect width="260" height="40" rx="6" fill="#1b1b22" stroke="#52525b" stroke-dasharray="3,3"/>
+      <text x="12" y="24" fill="#ef4444" font-family="system-ui, -apple-system, sans-serif" font-size="10">90m Reschedule Lag (Client No-Show)</text>
+    </g>
+
+    <g transform="translate(100, 430)">
+      <rect width="260" height="45" rx="6" fill="#241818"/>
+      <text x="12" y="24" fill="#fca5a5" font-family="system-ui, -apple-system, sans-serif" font-size="11">Job 3: 14:30 - 16:00 (East Sector)</text>
+    </g>
+  </g>
+
+  <!-- Middle: Continuous Route & Skill Engine -->
+  <g transform="translate(420, 180)">
+    <rect width="340" height="270" rx="12" fill="#181824" stroke="#3b82f6" stroke-width="1.5"/>
+    <text x="24" y="38" fill="#60a5fa" font-family="system-ui, -apple-system, sans-serif" font-size="15" font-weight="600">Continuous Dispatch Engine</text>
+    <text x="24" y="62" fill="#94a3b8" font-family="system-ui, -apple-system, sans-serif" font-size="12">Compacting travel windows and matching skills</text>
+    <line x1="24" y1="80" x2="316" y2="80" stroke="#252945"/>
+
+    <g transform="translate(24, 100)">
+      <rect width="292" height="45" rx="6" fill="#1b1f33"/>
+      <text x="12" y="20" fill="#38bdf8" font-family="system-ui, -apple-system, sans-serif" font-size="11" font-weight="600">Geographic Cluster Routing</text>
+      <text x="12" y="36" fill="#94a3b8" font-family="system-ui, -apple-system, sans-serif" font-size="10">Groups jobs by geographic density &amp; traffic</text>
+    </g>
+
+    <g transform="translate(24, 155)">
+      <rect width="292" height="45" rx="6" fill="#1b1f33"/>
+      <text x="12" y="20" fill="#38bdf8" font-family="system-ui, -apple-system, sans-serif" font-size="11" font-weight="600">Automated Client Self-Booking</text>
+      <text x="12" y="36" fill="#94a3b8" font-family="system-ui, -apple-system, sans-serif" font-size="10">Offers client 2 optimal slots fitting route</text>
+    </g>
+
+    <g transform="translate(24, 210)">
+      <rect width="292" height="45" rx="6" fill="#1b1f33"/>
+      <text x="12" y="20" fill="#34d399" font-family="system-ui, -apple-system, sans-serif" font-size="11" font-weight="600">Dynamic Schedule Compaction</text>
+      <text x="12" y="36" fill="#94a3b8" font-family="system-ui, -apple-system, sans-serif" font-size="10">Recovers cancelled slots in real time</text>
+    </g>
+  </g>
+
+  <!-- Right: Optimized High-Yield Schedule (After) -->
+  <g transform="translate(800, 140)" fill="#141416" stroke="#10b981" stroke-width="1.5">
+    <rect width="320" height="350" rx="12"/>
+    <text x="24" y="38" fill="#34d399" font-family="system-ui, -apple-system, sans-serif" font-size="15" font-weight="600">High-Density Compact Schedule</text>
+    <line x1="0" y1="60" x2="320" y2="60" stroke="#1a3325"/>
+
+    <g transform="translate(20, 80)">
+      <rect width="280" height="42" rx="6" fill="#16221c"/>
+      <text x="12" y="26" fill="#6ee7b7" font-family="system-ui, -apple-system, sans-serif" font-size="11">Job 1: 08:30 - 10:00 (North Cluster)</text>
+    </g>
+
+    <g transform="translate(20, 130)">
+      <rect width="280" height="42" rx="6" fill="#16221c"/>
+      <text x="12" y="26" fill="#6ee7b7" font-family="system-ui, -apple-system, sans-serif" font-size="11">Job 2: 10:20 - 11:50 (North Cluster)</text>
+    </g>
+
+    <g transform="translate(20, 180)">
+      <rect width="280" height="42" rx="6" fill="#16221c"/>
+      <text x="12" y="26" fill="#6ee7b7" font-family="system-ui, -apple-system, sans-serif" font-size="11">Job 3: 12:30 - 14:00 (Central Cluster)</text>
+    </g>
+
+    <g transform="translate(20, 230)">
+      <rect width="280" height="42" rx="6" fill="#16221c"/>
+      <text x="12" y="26" fill="#6ee7b7" font-family="system-ui, -apple-system, sans-serif" font-size="11">Job 4: 14:20 - 15:50 (Central Cluster)</text>
+    </g>
+
+    <g transform="translate(20, 280)">
+      <rect width="280" height="45" rx="6" fill="#1d2d24" stroke="#059669"/>
+      <text x="12" y="26" fill="#34d399" font-family="system-ui, -apple-system, sans-serif" font-size="11" font-weight="600">+25% More Jobs Completed Daily</text>
+    </g>
+  </g>
+
+  <!-- Connectors -->
+  <path d="M 380 315 L 420 315" stroke="#3b82f6" stroke-width="2"/>
+  <path d="M 760 315 L 800 315" stroke="#10b981" stroke-width="2"/>
+</svg>
